@@ -3,10 +3,10 @@ import Image from 'next/image'
 export function TurbopackIconLight() {
   return (
     <Image 
-      src="https://docs-chi-mocha.vercel.app/images/docs/repo/23751780-3E53-4E77-A81B-1E789736BE5D.png" 
+      src="https://docs-mp8c83mhy-sapiens-ia.vercel.app/images/docs/pack/D46F8A34-5C24-41AB-8EDC-B5D1097938CC.png" 
       alt="Turbopack Icon Light" 
-      width={52} 
-      height={52}
+      width={62} 
+      height={62}
     />
   );
 }
@@ -16,8 +16,8 @@ export function TurbopackIconDark() {
     <Image 
       src="https://docs-chi-mocha.vercel.app/images/docs/pack/CADD876D-9A14-4796-B9E1-536A1A5EFDAA.png" 
       alt="Turbopack Icon Dark" 
-      width={52} 
-      height={52}
+      width={62} 
+      height={62}
     />
   );
 }
@@ -34,7 +34,7 @@ export function TurbopackIconBackground() {
     >
       <path
         d="M36 2.4641C39.7128 0.320508 44.2872 0.320508 48 2.4641L77.5692 19.5359C81.282 21.6795 83.5692 25.641 83.5692 29.9282V64.0718C83.5692 68.359 81.282 72.3205 77.5692 74.4641L48 91.5359C44.2872 93.6795 39.7128 93.6795 36 91.5359L6.43078 74.4641C2.71797 72.3205 0.430782 68.359 0.430782 64.0718V29.9282C0.430782 25.641 2.71797 21.6795 6.43078 19.5359L36 2.4641Z"
-        fill="white"
+        fill="gold"
       />
       <path
         d="M36.25 2.89711C39.8081 0.842837 44.1919 0.842837 47.75 2.89711L77.3192 19.9689C80.8773 22.0232 83.0692 25.8196 83.0692 29.9282V64.0718C83.0692 68.1804 80.8773 71.9768 77.3192 74.0311L47.75 91.1029C44.1919 93.1572 39.8081 93.1572 36.25 91.1029L6.68078 74.0311C3.12267 71.9768 0.930782 68.1804 0.930782 64.0718V29.9282C0.930782 25.8197 3.12267 22.0232 6.68078 19.9689L36.25 2.89711Z"
