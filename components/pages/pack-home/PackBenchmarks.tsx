@@ -21,27 +21,58 @@ export interface BenchmarkData {
 
 export interface BenchmarkBar {
   label: string;
+  version: string;
   key: keyof BenchmarkData;
   turbo?: true;
+  swc?: true;
 }
 
 export const DEFAULT_BARS: BenchmarkBar[] = [
   {
-    key: "next13",
-    label: "Next.js 13",
+    key: "next11",
+    label: "Inteligencia",
+    version: "13.4",
     turbo: true,
   },
   {
-    key: "next12",
-    label: "Next.js 12",
+    key: "vite",
+    label: "Velocidad",
+    version: "4.3.1",
+    swc: true,
   },
   {
-    key: "vite",
-    label: "Vite",
+    key: "next12",
+    label: "Creatividad",
+    version: "12.3.4",
   },
   {
     key: "next11",
-    label: "Next.js 11",
+    label: "Cap.Memoria",
+    version: "11.1.4",
+  },
+];
+export const HMR_BARS: BenchmarkBar[] = [
+  {
+    key: "next13",
+    label: "Inteligencia",
+    version: "13.4",
+    turbo: true,
+  },
+  {
+    key: "vite",
+    label: "Velocidad",
+    version: "4.3.1",
+    swc: true,
+  },
+  {
+    key: "next12",
+    label: "Creatividad",
+    version: "12.3.4",
+  },
+  {
+    key: "next11",
+    label: "Cap.Memoria",
+    version: "11.1.4",
   },
 ];
 
@@ -53,9 +84,10 @@ export function PackBenchmarks() {
   return (
     <FadeIn className="relative flex flex-col items-center justify-center w-full gap-10 py-16 font-sans md:py-24 lg:py-32">
       <div className="flex flex-col items-center gap-5 md:gap-6">
-        <SectionHeader>快上加快</SectionHeader>
+        <SectionHeader>Velocidad inteligente</SectionHeader>
         <SectionSubtext>
-          Turbopack 由 Webpack 的创建者精心制作，提供无与伦比的强大性能。
+          Cada modelo es distinto, elige el que mejor se adapte
+          a tu vision y crea agentes inteligentes de alto nivel.
         </SectionSubtext>
       </div>
       <div className="flex flex-col items-center w-full">
