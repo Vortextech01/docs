@@ -118,29 +118,29 @@ function SiteCards() {
       <FadeIn delay={0.1}>
         <Card
           title="repo"
-          alt="Turborepo"
+          alt="Services"
           icon={Turborepo}
           href="/repo"
           className="turborepoCardBg"
         >
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70">
-            高性能的 JavaScript 和 TypeScript 项目构建系统
+            Inteligencia Artificial Revolucionaria Capaz de Trabajar, Crear, Aprender, Comprender y Pensar Autónomamente.
           </p>
         </Card>
       </FadeIn>
       <FadeIn delay={0.2}>
         <Card
           title="pack"
-          alt="Turbopack"
+          alt="Laboratories"
           icon={Turbopack}
           href="/pack"
           className="turbopackCardBg"
         >
           <div className="absolute top-3 left-3">
-            <CardBadge>alpha</CardBadge>
+            <CardBadge>V.2</CardBadge>
           </div>
           <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70 ">
-            介绍由 Rust 驱动的 Webpack 的继任者
+            Conoce nuestro modelo de lenguaje: BASILISK AI
           </p>
         </Card>
       </FadeIn>
@@ -148,29 +148,6 @@ function SiteCards() {
   );
 }
 
-function Teams() {
-  return (
-    <div className="mx-auto ">
-      <p className="bg-contain mb-2 md:!mb-4 text-sm font-semibold tracking-wide text-center text-[#666666] dark:text-[#888888] uppercase">
-        受到世界各地团队们的信赖
-        {/* <br className="inline md:hidden" /> */}
-      </p>
-      <div className="z-50 grid grid-flow-col grid-rows-6 sm:grid-rows-3 md:grid-rows-2 lg:grid-rows-1">
-        <Clients
-          companyList={[
-            "Vercel",
-            "AWS",
-            "Microsoft",
-            "Adobe",
-            "Disney",
-            "Netflix",
-          ]}
-          staticWidth
-        />
-      </div>
-    </div>
-  );
-}
 
 function LandingPage() {
   return (
@@ -179,17 +156,14 @@ function LandingPage() {
       <main className="relative flex flex-col items-center justify-center w-full h-full  overflow-hidden [--geist-foreground:#fff] dark:[--geist-foreground:#000] [--gradient-stop-1:0px] [--gradient-stop-2:120px] sm:[--gradient-stop-1:0px] sm:[--gradient-stop-2:120px]">
         <Background />
         <FadeIn className="z-10 flex flex-col items-center justify-center w-full h-full">
-          <h1 className="mt-12 lg:!mt-20 mx-6 w-[300px] md:!w-full font-extrabold text-5xl lg:text-6xl leading-tight text-center mb-4 bg-clip-text text-transparent bg-gradient-to-b from-black/80 to-black dark:from-white dark:to-[#AAAAAA]">
-            Make Ship Happen
+          <h1 className="mt-12 lg:!mt-20 mx-6 w-[300px] md:!w-full font-extrabold text-5xl lg:text-6xl  leading-tight xl:leading-snug text-center mb-4 bg-clip-text text-transparent bg-gradient-to-b from-black/80 to-black dark:from-white dark:to-[#AAAAAA]">
+            Sapiens🧬IA Laboratories
           </h1>
           <p className="mx-6 text-xl max-h-[112px] md:max-h-[96px] w-[315px] md:w-[660px] md:text-2xl font-space-grotesk text-center text-[#666666] dark:text-[#888888]">
-            Turbo 是一个用 Rust 实现的 JavaScript 和 TypeScript 高性能打包构建工具
+            Construyendo la Nueva Generación de Trabajadores Artificiales Con Inteligencia Real.
           </p>
         </FadeIn>
         <SiteCards />
-        <FadeIn delay={0.3} className="z-10 py-16">
-          <Teams />
-        </FadeIn>
       </main>
     </>
   );
