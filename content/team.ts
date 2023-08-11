@@ -25,9 +25,9 @@ const TURBO_TEAM = {
     picture: "/images/people/nathanhammond.png",
   },
   tknickman: {
-    name: "Tom Knickman",
-    twitterUsername: "tknickman",
-    picture: "/images/people/tknickman.jpeg",
+    name: "Dagoberto Malacara",
+    twitterUsername: "twitter",
+    picture: "/images/people/CB94498F-B9FE-4EA4-924B-3AD91EE4B852.jpeg",
   },
   mehulkar: {
     name: "Mehul Kar",
