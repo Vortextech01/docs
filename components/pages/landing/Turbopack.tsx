@@ -1,112 +1,27 @@
+import Image from 'next/image'
+
 export function TurbopackIconLight() {
   return (
-    <svg
-      width="52"
-      height="52"
-      viewBox="0 0 52 52"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clipPath="url(#clip0_967_9063)">
-        <g clipPath="url(#clip1_967_9063)">
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M25.675 2.4375L12.376 10.0373L12.402 16.0095L25.675 8.4253L41.275 17.3407L46.475 20.3125V14.3221L25.675 2.4375ZM23.335 42.6543L10.075 35.0779V17.3537L10.0698 17.3511L10.0412 11.3711L4.875 14.3221V22.2469V30.1717V38.0939L18.148 45.6781L23.335 42.6543ZM41.275 35.0779V20.0369L46.475 23.0087V30.1717V38.0939L25.675 49.9811L20.4932 47.0197L25.675 43.9985V43.9907L41.275 35.0779Z"
-            fill="url(#paint0_linear_967_9063)"
-          />
-          <path
-            d="M12.415 20.0474V33.7182L25.675 41.2972V27.6238L12.415 20.0474Z"
-            fill="black"
-          />
-          <path
-            d="M25.675 11.1216L13.5928 18.0246L26.8554 25.6036L38.935 18.698L25.675 11.1216Z"
-            fill="black"
-          />
-        </g>
-      </g>
-      <defs>
-        <linearGradient
-          id="paint0_linear_967_9063"
-          x1="25.6751"
-          y1="6.19135"
-          x2="25.5964"
-          y2="46.8163"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#0096FF" />
-          <stop offset="1" stopColor="#FF1E56" />
-        </linearGradient>
-        <clipPath id="clip0_967_9063">
-          <rect width="52" height="52" fill="white" />
-        </clipPath>
-        <clipPath id="clip1_967_9063">
-          <rect
-            width="41.6"
-            height="47.5436"
-            fill="white"
-            transform="translate(4.875 2.4375)"
-          />
-        </clipPath>
-      </defs>
-    </svg>
+    <Image 
+      src="https://docs-chi-mocha.vercel.app/images/docs/repo/23751780-3E53-4E77-A81B-1E789736BE5D.png" 
+      alt="Turbopack Icon Light" 
+      width={52} 
+      height={52}
+    />
   );
 }
 
 export function TurbopackIconDark() {
   return (
-    <svg
-      width="52"
-      height="52"
-      viewBox="0 0 52 52"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clipPath="url(#clip0_967_8735)">
-        <g clipPath="url(#clip1_967_8735)">
-          <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M25.675 2.4375L12.376 10.0373L12.402 16.0095L25.675 8.4253L41.275 17.3407L46.475 20.3125V14.3221L25.675 2.4375ZM23.335 42.6543L10.075 35.0779V17.3537L10.0698 17.3511L10.0412 11.3711L4.875 14.3221V22.2469V30.1717V38.0939L18.148 45.6781L23.335 42.6543ZM41.275 35.0779V20.0369L46.475 23.0087V30.1717V38.0939L25.675 49.9811L20.4932 47.0197L25.675 43.9985V43.9907L41.275 35.0779Z"
-            fill="url(#paint0_linear_967_8735)"
-          />
-          <path
-            d="M12.415 20.0474V33.7182L25.675 41.2972V27.6238L12.415 20.0474Z"
-            fill="white"
-          />
-          <path
-            d="M25.675 11.1216L13.5928 18.0246L26.8554 25.6036L38.935 18.698L25.675 11.1216Z"
-            fill="white"
-          />
-        </g>
-      </g>
-      <defs>
-        <linearGradient
-          id="paint0_linear_967_8735"
-          x1="25.6751"
-          y1="6.19135"
-          x2="25.5964"
-          y2="46.8163"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#0096FF" />
-          <stop offset="1" stopColor="#FF1E56" />
-        </linearGradient>
-        <clipPath id="clip0_967_8735">
-          <rect width="52" height="52" fill="white" />
-        </clipPath>
-        <clipPath id="clip1_967_8735">
-          <rect
-            width="41.6"
-            height="47.5436"
-            fill="white"
-            transform="translate(4.875 2.4375)"
-          />
-        </clipPath>
-      </defs>
-    </svg>
+    <Image 
+      src="https://docs-chi-mocha.vercel.app/images/docs/pack/CADD876D-9A14-4796-B9E1-536A1A5EFDAA.png" 
+      alt="Turbopack Icon Dark" 
+      width={52} 
+      height={52}
+    />
   );
 }
+
 
 export function TurbopackIconBackground() {
   return (
