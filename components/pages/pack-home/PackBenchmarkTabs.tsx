@@ -12,27 +12,27 @@ const TABS: {
 }[] = [
   {
     id: "cold",
-    title: "冷启动",
+    title: "Basilisk V.1",
     soon: false,
-    tooltip: "首次运行",
+    tooltip: "Memoria (flexible)",
   },
   {
     id: "file_change",
-    title: "文件修改",
+    title: "Basilisk V.2",
     soon: false,
-    tooltip: "热加载 (HMR)",
+    tooltip: "Entrenamiento (Avanzado)",
   },
   {
     id: "code_build",
-    title: "代码编译",
+    title: "VOID",
     soon: true,
-    tooltip: "首次编译",
+    tooltip: "First Build",
   },
   {
     id: "build_from_cache",
-    title: "缓存编译",
+    title: "Vortex",
     soon: true,
-    tooltip: "非第一次编译",
+    tooltip: "Second Build",
   },
 ];
 
