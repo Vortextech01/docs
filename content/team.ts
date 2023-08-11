@@ -1,6 +1,6 @@
 const TURBO_TEAM = {
   jaredpalmer: {
-    name: "C. Davila",
+    name: "Carlos Davila",
     twitterUsername: "Carlosdavila007",
     picture: "/images/people/66842354-3140-44C1-B98B-65C8F05D425D.jpeg",
   },
