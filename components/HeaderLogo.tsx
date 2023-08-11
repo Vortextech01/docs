@@ -8,20 +8,19 @@ import { useTheme } from "next-themes";
 function HeaderLogo() {
   return (
     <>
-      <a
-        href="https://sapienslaboratories.com/demo"
-        target="_blank"
-        rel="noreferrer"
-        title="vercel.com homepage"
-      >
-        <Image
-          src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/BDD5B0D4-222E-4C92-9A12-38603051C46A-removebg-preview.png" // replace with your image URL
-          alt="Vercel Logo"
-          width={50}
-          height={50}
-          className="dark:fill-white fill-black" 
-        />
-      </a>
+      <Link href="/">
+        <a
+          title="sapienslaboratories.com homepage"
+        >
+          <Image
+            src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/BDD5B0D4-222E-4C92-9A12-38603051C46A-removebg-preview.png"
+            alt="Sapiens Logo"
+            width={50}
+            height={50}
+            className="dark:fill-white fill-black"
+          />
+        </a>
+      </Link>
       <svg
         data-testid="geist-icon"
         fill="none"
@@ -36,8 +35,8 @@ function HeaderLogo() {
       >
         <path d="M16.88 3.549L7.12 20.451" />
       </svg>
-      <Link href="/" passHref>
-        <a title="Home" className="hover:opacity-75 flex flex-row items-center">
+      <Link href="/chat" passHref>
+        <a title="chat" className="hover:opacity-75 flex flex-row items-center">
           <TurboLogo height={32} className={styles.desktopLogo} />
           <TurboLogoCondensed height={32} className={styles.mobileLogo} />
           <span className={`font-medium ml-1 ${styles.desktopLogo}`}>中文</span>
