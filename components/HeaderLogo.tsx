@@ -15,9 +15,9 @@ function HeaderLogo() {
         title="vercel.com homepage"
       >
         <Image
-          src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/9CB99EF6-BB68-4039-BE21-F9866E1E39D9.png" // replace with your image URL
+          src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/BDD5B0D4-222E-4C92-9A12-38603051C46A-removebg-preview.png" // replace with your image URL
           alt="Vercel Logo"
-          width={500}
+          width={300}
           height={300}
           className="dark:fill-white fill-black" 
         />
