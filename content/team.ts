@@ -1,13 +1,13 @@
 const TURBO_TEAM = {
   jaredpalmer: {
-    name: "Jared Palmer",
-    twitterUsername: "jaredpalmer",
-    picture: "/images/people/jaredpalmer_headshot.jpeg",
+    name: "C. Davila",
+    twitterUsername: "Carlosdavila007",
+    picture: "/images/people/66842354-3140-44C1-B98B-65C8F05D425D.jpeg",
   },
   gaspargarcia_: {
-    name: "Gaspar Garcia",
-    twitterUsername: "gaspargarcia_",
-    picture: "/images/people/gaspargarcia_.jpeg",
+    name: "Dagoberto Malacara",
+    twitterUsername: "twitter",
+    picture: "/images/people/CB94498F-B9FE-4EA4-924B-3AD91EE4B852.jpeg",
   },
   becca__z: {
     name: "Becca Z.",
@@ -15,9 +15,9 @@ const TURBO_TEAM = {
     picture: "/images/people/becca__z.jpeg",
   },
   gsoltis: {
-    name: "Greg Soltis",
-    twitterUsername: "gsoltis",
-    picture: "/images/people/gsoltis.jpeg",
+    name: "Juanito.Bsk",
+    twitterUsername: "twitter",
+    picture: "/images/people/405621D0-8554-46E7-AAAB-18F7ED2E9DD2.jpeg",
   },
   nathanhammond: {
     name: "Nathan Hammond",
