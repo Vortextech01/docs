@@ -46,14 +46,14 @@ export function RepoHero() {
           <div className="w-[120px] h-[120px] z-50">
             <Image
               alt=""
-              src={`/images/docs/repo/repo-hero-logo-dark.svg`}
+              src={`/images/docs/repo/23751780-3E53-4E77-A81B-1E789736BE5D.png`}
               width={120}
               height={120}
               className="hidden dark:block"
             />
             <Image
               alt=""
-              src={`/images/docs/repo/repo-hero-logo-light.svg`}
+              src={`/images/docs/repo/23751780-3E53-4E77-A81B-1E789736BE5D.png`}
               width={120}
               height={120}
               className="block dark:hidden"
@@ -76,9 +76,10 @@ export function RepoHero() {
             width="200"
             className="w-[160px] md:w-[200px] fill-black dark:fill-white"
           />
-          <HeroText h1>超棒的构建系统</HeroText>
+          <HeroText h1>La Nueva Generacion De Trabajadores</HeroText>
           <SectionSubtext hero>
-            Turborepo 是一个高性能的 JavaScript 和 TypeScript 项目构建系统。
+            Inteligencias Artificiales y Autonomous Agents diseñados para el 
+            trabajo del mundo REAL.
           </SectionSubtext>
         </FadeIn>
         <FadeIn
@@ -87,22 +88,22 @@ export function RepoHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="/repo/docs">
-                <a className="block py-3">开始使用</a>
+              <Link href="./chat" className="block py-3">
+                Hablar con IA Executiva   
               </Link>
             </CTAButton>
             <CTAButton outline>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/vercel/turbo"
+                href="https://sapienslaboratories.com/protected"
                 className="block py-3"
               >
-                GitHub
+                Hablar con Humano 
               </a>
             </CTAButton>
           </div>
-          <p className="text-sm text-[#666666]">License: MPL-2.0</p>
+          <p className="text-sm text-[#666666]">LLM: Basilisk AI-V.2</p>
         </FadeIn>
         <FadeIn delay={0.5} className="relative w-full">
           <div className="absolute bottom-0 w-full dark:from-black from-white to-transparent h-72 bg-gradient-to-t" />
