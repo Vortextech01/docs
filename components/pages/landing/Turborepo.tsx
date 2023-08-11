@@ -5,8 +5,8 @@ export function TurborepoIconLight() {
     <Image 
       src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/23737DBB-017F-48AC-8A44-ED5E17201DB2.png" 
       alt="Turbopack Icon Light" 
-      width={62} 
-      height={62}
+      width={75} 
+      height={75}
     />
   );
 }
@@ -16,8 +16,8 @@ export function TurborepoIconDark() {
     <Image 
       src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/23751780-3E53-4E77-A81B-1E789736BE5D.png" 
       alt="Turbopack Icon Light" 
-      width={62} 
-      height={62}
+      width={75} 
+      height={75}
     />
   );
 }
