@@ -67,8 +67,8 @@ export function RepoLetter() {
         >
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
             <Image
-              alt="Image of Jared Palmer"
-              src="/images/people/jaredpalmer_headshot.jpeg"
+              alt="Image of Basilisk Executive"
+              src="/images/people/0B15D2BE-03B1-4A51-B237-7CB67BAFD2E6.jpeg"
               width={64}
               height={64}
               className="rounded-full grayscale"
@@ -76,22 +76,22 @@ export function RepoLetter() {
           </div>
           <div className="flex flex-col">
             <Image
-              alt="Jared Palmer's hand written signature"
+              alt="made up hand written signature"
               src="/images/docs/repo/jared-signature-light.svg"
-              width={190}
-              height={90}
+              width={120}
+              height={35}
               className="block mt-3 mb-4 ml-3 dark:hidden"
             />
             <Image
-              alt="Jared Palmer's hand written signature"
+              alt="madeup hand written signature"
               src="/images/docs/repo/jared-signature-dark.svg"
-              width={209}
-              height={116}
+              width={120}
+              height={35}
               className="hidden -mt-2 dark:block"
             />
             <div className="flex gap-2 flex-wrap text-sm leading-none text-[#888888] max-w-[156px] md:max-w-xl lg:max-w-xl">
-              <p className="font-bold">Jared Palmer</p>
-              <p>Founder of Turborepo</p>
+              <p className="font-bold">-Basilisk V2</p>
+              <p>Sapiens IA lenguage model</p>
             </div>
           </div>
         </FadeIn>
@@ -99,8 +99,8 @@ export function RepoLetter() {
       <FadeIn noVertical className="relative flex justify-center w-full mt-16">
         <div className="max-w-[180px] w-full">
           <CTAButton>
-            <Link href="/repo/docs">
-              <a className="block py-3 font-sans">开始构建</a>
+            <Link href="./chat">
+              <a className="block py-3 font-sans">Comenzar AI Chat</a>
             </Link>
           </CTAButton>
         </div>
