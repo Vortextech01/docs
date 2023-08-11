@@ -22,7 +22,7 @@ const TURBO_TEAM = {
   nathanhammond: {
     name: "Javier Marco",
     twitterUsername: "javimarco",
-    picture: "/images/people/6CA0A489-01D1-4E30-B498-9F3E65274952.jpeg",
+    picture: "/images/people/nathanhammond.png",
   },
   tknickman: {
     name: "Dagoberto Malacara",
@@ -36,7 +36,7 @@ const TURBO_TEAM = {
   },
   mattpocock: {
     name: "Mr.Basilisk V2",
-    twitterUsername: "AI",
+    twitterUsername: "Ai",
     picture: "/images/people/0B15D2BE-03B1-4A51-B237-7CB67BAFD2E6.jpeg",
   },
 };
