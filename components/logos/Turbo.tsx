@@ -3,10 +3,7 @@ type LogoProps = {
   height?: number;
 };
 
-export const TurboLogoCondensed = ({
-  height = 32,
-  className = "",
-}: LogoProps) => (
+export const TurboLogoCondensed = ({ height = 32, className = "", }: LogoProps) => (
   <svg
     className={className}
     width="32"
@@ -15,29 +12,25 @@ export const TurboLogoCondensed = ({
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <title>Turborepo</title>
-    <path
-      d="M15.9309 7.33936C11.1933 7.33936 7.33887 11.1938 7.33887 15.9314C7.33887 20.669 11.1933 24.5234 15.9309 24.5234C20.6685 24.5234 24.5229 20.669 24.5229 15.9314C24.5229 11.1938 20.6685 7.33936 15.9309 7.33936ZM15.9309 20.3778C13.4749 20.3778 11.4845 18.3874 11.4845 15.9314C11.4845 13.4754 13.4749 11.485 15.9309 11.485C18.3869 11.485 20.3773 13.4754 20.3773 15.9314C20.3773 18.3874 18.3869 20.3778 15.9309 20.3778Z"
-      className="dark:fill-blue fill-black"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M16.6509 5.92821V2.72021C23.6237 3.09301 29.1629 8.86581 29.1629 15.9314C29.1629 22.997 23.6237 28.7682 16.6509 29.1426V25.9346C21.8477 25.5634 25.9629 21.221 25.9629 15.9314C25.9629 10.6418 21.8477 6.29941 16.6509 5.92821ZM8.35333 22.4914C6.97573 20.901 6.08773 18.8754 5.92933 16.6514H2.71973C2.88613 19.7634 4.13093 22.5874 6.08133 24.7618L8.35173 22.4914H8.35333ZM15.2109 29.1426V25.9346C12.9853 25.7762 10.9597 24.8898 9.36935 23.5106L7.09895 25.781C9.27495 27.733 12.0989 28.9762 15.2093 29.1426H15.2109Z"
-      fill="url(#paint0_linear_967_9283)"
+    <title>Turbo logo</title>
+    <circle
+      cx="16"
+      cy="16"
+      r="15"
+      fill="white"
     />
     <defs>
-      <linearGradient
-        id="paint0_linear_967_9283"
-        x1="17.1694"
-        y1="4.578"
-        x2="4.16465"
-        y2="17.5828"
-        gradientUnits="userSpaceOnUse"
+      <radialGradient
+        id="RadialGradient1"
+        cx="50%"
+        cy="50%"
+        r="50%"
+        fx="50%"
+        fy="50%"
       >
-        <stop stopColor="#0096FF" />
-        <stop offset="1" stopColor="#FF1E56" />
-      </linearGradient>
+        <stop offset="0%" style={{stopColor: 'white', stopOpacity: 1}} />
+        <stop offset="100%" style={{stopColor: 'white', stopOpacity: 0.6}} />
+      </radialGradient>
     </defs>
   </svg>
 );
