@@ -9,7 +9,7 @@ function HeaderLogo() {
   return (
     <>
       <a
-        href="https://vercel.com"
+        href="https://sapienslaboratories.com/demo"
         target="_blank"
         rel="noreferrer"
         title="vercel.com homepage"
@@ -17,8 +17,8 @@ function HeaderLogo() {
         <Image
           src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/BDD5B0D4-222E-4C92-9A12-38603051C46A-removebg-preview.png" // replace with your image URL
           alt="Vercel Logo"
-          width={300}
-          height={300}
+          width={50}
+          height={50}
           className="dark:fill-white fill-black" 
         />
       </a>
