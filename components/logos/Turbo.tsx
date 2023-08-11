@@ -18,7 +18,7 @@ export const TurboLogoCondensed = ({ height = 32, className = "", }: LogoProps) 
 );
 
 const Turbo = ({ height = 32, className = "" }: LogoProps) => (
-  <span className={className} style={{ fontSize: `${height}px`, fontWeight: 'bold' }}>
+  <span className={className} style={{ fontSize: `${height * 0.5}px`, fontWeight: 'bold' }}>
     Sapiens•IA
   </span>
 );
