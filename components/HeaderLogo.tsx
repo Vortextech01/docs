@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import TurboLogo, { TurboLogoCondensed } from "./logos/Turbo";
 import SiteSwitcher from "./SiteSwitcher";
 import Link from "next/link";
@@ -13,18 +14,13 @@ function HeaderLogo() {
         rel="noreferrer"
         title="vercel.com homepage"
       >
-        <svg
-          height={22}
-          viewBox="0 0 235 203"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="dark:fill-white fill-black"
-        >
-          <path
-            d="M117.082 0L234.164 202.794H0L117.082 0Z"
-            fill="currentColor"
-          />
-        </svg>
+        <Image
+          src="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/9CB99EF6-BB68-4039-BE21-F9866E1E39D9.png" // replace with your image URL
+          alt="Vercel Logo"
+          width={500}
+          height={300}
+          className="dark:fill-white fill-black" 
+        />
       </a>
       <svg
         data-testid="geist-icon"
