@@ -6,7 +6,7 @@ import {
   useAnimation,
   AnimationPlaybackControls,
 } from "framer-motion";
-import Image from "next/future/image";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import benchmarkData from "./benchmark-data/data.json";
 import { Gradient } from "../home-shared/Gradient";
@@ -57,7 +57,14 @@ export function BenchmarksGraph({
             <GraphBar
               key={bar.key}
               turbo={bar.turbo}
-              Label={<GraphLabel label={bar.label} turbo={bar.turbo} />}
+              Label={
+                <GraphLabel
+                  label={bar.label}
+                  version={bar.version}
+                  turbo={bar.turbo}
+                  swc={bar.swc}
+                />
+              }
               duration={data[bar.key] * 1000}
               longestTime={longestTimeWithPadding}
               inView={graphInView}
@@ -139,7 +146,7 @@ function GraphBar({
       .then(() => {
         setFinished(true);
       });
-    const timerAnimationRef = animate(0, duration / 1000, {
+    const timerAnimationRef = animate(0, duration, {
       ...transition,
       ease: "linear",
       onUpdate(value) {
@@ -203,18 +210,30 @@ function GraphBar({
           className="pr-2"
           transition={{ duration: 0.1 }}
         >
-          <GraphTimer turbo={turbo} timer={pinTime ? duration / 1000 : timer} />
+          <GraphTimer
+            turbo={turbo}
+            timer={pinTime ? duration : timer}
+            duration={duration}
+          />
         </motion.div>
       </div>
     </div>
   );
 }
 
-const GraphTimer = ({ turbo, timer }: { turbo: boolean; timer: number }) => {
+const GraphTimer = ({
+  turbo,
+  timer,
+  duration,
+}: {
+  turbo: boolean;
+  timer: number;
+  duration: number;
+}) => {
   return (
     <div className={`flex flex-row gap-2 w-24 justify-end items-center z-10`}>
       {turbo && (
-        <div className="relative flex w-8 h-8 ">
+        <div className="relative flex w-6 h-6">
           <Image
             alt="Turbopack"
             src="/images/docs/pack/turbo-benchmark-icon-light.svg"
@@ -238,19 +257,56 @@ const GraphTimer = ({ turbo, timer }: { turbo: boolean; timer: number }) => {
           />
         </div>
       )}
-      <p className="font-mono">{timer.toFixed(2)}s</p>
+      <p className="font-mono">
+        <Time value={timer} maxValue={duration} />
+      </p>
     </div>
+  );
+};
+
+function roundTo(num: number, decimals: number) {
+  const factor = Math.pow(10, decimals);
+  return Math.round(num * factor) / factor;
+}
+
+const Time = ({
+  value,
+  maxValue,
+}: {
+  value: number;
+  maxValue: number;
+}): JSX.Element => {
+  let unitValue: string;
+  let unit: string;
+  if (maxValue < 1000) {
+    unitValue = Math.round(value).toFixed(0);
+    unit = "ms";
+  } else {
+    const roundedValue = roundTo(value / 1000, 1);
+    unitValue = roundedValue.toFixed(1);
+    unit = "s";
+  }
+
+  return (
+    <>
+      {unitValue}
+      {unit}
+    </>
   );
 };
 
 function GraphLabel({
   label,
   turbo,
+  swc,
   mobileOnly,
   esbuild,
+  version,
 }: {
   label: string;
+  version: string;
   turbo?: boolean;
+  swc?: boolean;
   mobileOnly?: boolean;
   esbuild?: boolean;
 }) {
@@ -259,6 +315,7 @@ function GraphLabel({
       className={`flex items-center h-12 whitespace-nowrap font-bold gap-y-1 gap-x-2 ${
         mobileOnly && "md:hidden"
       }`}
+      title={version}
     >
       <p>{label}</p>
       {turbo && (
@@ -268,7 +325,12 @@ function GraphLabel({
             gradients.benchmarkTurboLabel
           )}
         >
-          turbo
+          Pensamiento Critico
+        </p>
+      )}
+      {swc && (
+        <p className="font-space-grotesk m-0 font-light text-[#666666]">
+          procesador
         </p>
       )}
       {esbuild && (
