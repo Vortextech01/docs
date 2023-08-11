@@ -6,8 +6,8 @@ export function RepoFeatures() {
   return (
     <FadeIn className="py-16 md:py-24 lg:py-32">
       <FeaturesBento
-        header="为什么使用 Turborepo?"
-        body="Turborepo 重新构想了 Facebook 和 Google 使用的构建系统技术，以消除维护负担和开销。"
+        header="Porque Sapiens?"
+        body="Porque nuestro objetivo es construir mas que solo robots o modelos de lenguaje. Estamos comprometidos a crear y entrenar inteligencias artificiales que piensen por si mismas."
         features={REPO_HOME_FEATURES}
       />
     </FadeIn>
