@@ -12,26 +12,8 @@ export const TurboLogoCondensed = ({ height = 32, className = "", }: LogoProps) 
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <title>Turbo logo</title>
-    <circle
-      cx="16"
-      cy="16"
-      r="15"
-      fill="white"
-    />
-    <defs>
-      <radialGradient
-        id="RadialGradient1"
-        cx="50%"
-        cy="50%"
-        r="50%"
-        fx="50%"
-        fy="50%"
-      >
-        <stop offset="0%" style={{stopColor: 'white', stopOpacity: 1}} />
-        <stop offset="100%" style={{stopColor: 'white', stopOpacity: 0.6}} />
-      </radialGradient>
-    </defs>
+    <title>Image Circle</title>
+    <image href="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/23737DBB-017F-48AC-8A44-ED5E17201DB2.png" height="32" width="32"/>
   </svg>
 );
 
