@@ -10,8 +10,8 @@ const TURBO_TEAM = {
     picture: "/images/people/CB94498F-B9FE-4EA4-924B-3AD91EE4B852.jpeg",
   },
   becca__z: {
-    name: "Becca Z.",
-    twitterUsername: "becca__z",
+    name: "Arturo.",
+    twitterUsername: "twitter",
     picture: "/images/people/becca__z.jpeg",
   },
   gsoltis: {
@@ -20,9 +20,9 @@ const TURBO_TEAM = {
     picture: "/images/people/405621D0-8554-46E7-AAAB-18F7ED2E9DD2.jpeg",
   },
   nathanhammond: {
-    name: "Nathan Hammond",
-    twitterUsername: "nathanhammond",
-    picture: "/images/people/nathanhammond.png",
+    name: "Javier Marco",
+    twitterUsername: "javimarco",
+    picture: "/images/people/6CA0A489-01D1-4E30-B498-9F3E65274952.jpeg",
   },
   tknickman: {
     name: "Dagoberto Malacara",
@@ -30,14 +30,14 @@ const TURBO_TEAM = {
     picture: "/images/people/CB94498F-B9FE-4EA4-924B-3AD91EE4B852.jpeg",
   },
   mehulkar: {
-    name: "Mehul Kar",
-    twitterUsername: "mehulkar",
-    picture: "/images/people/mehulkar.jpeg",
+    name: "Arath Santos",
+    twitterUsername: "CampingTime3",
+    picture: "/images/people/F77F3692-9D03-41ED-8DD1-421241EC6A10.jpeg",
   },
   mattpocock: {
-    name: "Matt Pocock",
-    twitterUsername: "mattpocockuk",
-    picture: "/images/people/mattpocock.jpeg",
+    name: "Mr.Basilisk V2",
+    twitterUsername: "AI",
+    picture: "/images/people/0B15D2BE-03B1-4A51-B237-7CB67BAFD2E6.jpeg",
   },
 };
 
