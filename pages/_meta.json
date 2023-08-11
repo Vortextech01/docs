@@ -18,6 +18,15 @@
       "typesetting": "article"
     }
   },
+  "chat": {
+    "title": "Chat",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "showcase": "案例",
   "official-website": {
     "title": "官网",
