@@ -3,8 +3,8 @@ import EcosystemIconDark from "../public/images/docs/shared/feature-icons/ecosys
 import EcosystemIconLight from "../public/images/docs/shared/feature-icons/ecosystem-light.svg";
 import LightningIconDark from "../public/images/docs/shared/feature-icons/lightning-dark.svg";
 import LightningIconLight from "../public/images/docs/shared/feature-icons/lightning-light.svg";
-import BarsIconDark from "../public/images/docs/shared/feature-icons/bars-dark.svg";
-import BarsIconLight from "../public/images/docs/shared/feature-icons/bars-light.svg";
+import BarsIconDark from "../public/images/docs/shared/feature-icons/running-svgrepo-com 3.svg";
+import BarsIconLight from "../public/images/docs/shared/feature-icons/running-svgrepo-com 3.svg";
 import MultiEnvTargetsIconDark from "../public/images/docs/shared/feature-icons/multi-env-targets-dark.svg";
 import MultiEnvTargetsIconLight from "../public/images/docs/shared/feature-icons/multi-env-targets-light.svg";
 import NextJSIconDark from "../public/images/docs/shared/feature-icons/nextjs-dark.svg";
@@ -20,7 +20,7 @@ import CpuIconLight from "../public/images/docs/shared/feature-icons/cpu-light.s
 import PieconDark from "../public/images/docs/shared/feature-icons/piecon-dark.svg";
 import PieconLight from "../public/images/docs/shared/feature-icons/piecon-light.svg";
 import RefreshIconDark from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
-import RefreshIconLight from "../public/images/docs/shared/feature-icons/refresh-light.svg";
+import RefreshIconLight from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
 import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/arrows-expand-dark.svg";
 import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/arrows-expand-light.svg";
 import BeakerIconDark from "../public/images/docs/shared/feature-icons/beaker-dark.svg";
