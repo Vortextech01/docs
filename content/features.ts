@@ -19,7 +19,7 @@ import CpuIconDark from "../public/images/docs/shared/feature-icons/cpu-dark.svg
 import CpuIconLight from "../public/images/docs/shared/feature-icons/cpu-light.svg";
 import PieconDark from "../public/images/docs/shared/feature-icons/piecon-dark.svg";
 import PieconLight from "../public/images/docs/shared/feature-icons/piecon-light.svg";
-import RefreshIconDark from "../public/images/docs/shared/feature-icons/refresh-dark.svg";
+import RefreshIconDark from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
 import RefreshIconLight from "../public/images/docs/shared/feature-icons/refresh-light.svg";
 import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/arrows-expand-dark.svg";
 import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/arrows-expand-light.svg";
