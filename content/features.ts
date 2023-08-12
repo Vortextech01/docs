@@ -3,8 +3,8 @@ import EcosystemIconDark from "../public/images/docs/shared/feature-icons/ecosys
 import EcosystemIconLight from "../public/images/docs/shared/feature-icons/ecosystem-light.svg";
 import LightningIconDark from "../public/images/docs/shared/feature-icons/lightning-dark.svg";
 import LightningIconLight from "../public/images/docs/shared/feature-icons/lightning-light.svg";
-import BarsIconDark from "../public/images/docs/shared/feature-icons/running-svgrepo-com 3.svg";
-import BarsIconLight from "../public/images/docs/shared/feature-icons/running-svgrepo-com 3.svg";
+import BarsIconDark from "../public/images/docs/shared/feature-icons/bars-dark.svg";
+import BarsIconLight from "../public/images/docs/shared/feature-icons/bars-light.svg";
 import MultiEnvTargetsIconDark from "../public/images/docs/shared/feature-icons/multi-env-targets-dark.svg";
 import MultiEnvTargetsIconLight from "../public/images/docs/shared/feature-icons/multi-env-targets-light.svg";
 import NextJSIconDark from "../public/images/docs/shared/feature-icons/nextjs-dark.svg";
@@ -17,21 +17,14 @@ import CloudIconDark from "../public/images/docs/shared/feature-icons/cloud-dark
 import CloudIconLight from "../public/images/docs/shared/feature-icons/cloud-light.svg";
 import CpuIconDark from "../public/images/docs/shared/feature-icons/cpu-dark.svg";
 import CpuIconLight from "../public/images/docs/shared/feature-icons/cpu-light.svg";
-import PieconDark from "../public/images/docs/shared/feature-icons/Face 1.png";
-import PieconLight from "../public/images/docs/shared/feature-icons/Face 1.png";
-import RefreshIconDark from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
-import RefreshIconLight from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
+import PieconDark from "../public/images/docs/shared/feature-icons/piecon-dark.svg";
+import PieconLight from "../public/images/docs/shared/feature-icons/piecon-light.svg";
+import RefreshIconDark from "../public/images/docs/shared/feature-icons/refresh-dark.svg";
+import RefreshIconLight from "../public/images/docs/shared/feature-icons/refresh-light.svg";
 import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/arrows-expand-dark.svg";
 import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/arrows-expand-light.svg";
 import BeakerIconDark from "../public/images/docs/shared/feature-icons/beaker-dark.svg";
 import BeakerIconLight from "../public/images/docs/shared/feature-icons/beaker-light.svg";
-import sap from "../public/images/docs/shared/feature-icons/E9C0EA8D-0FF6-4822-8384-5E2CDC51E2FE.png";
-import calendar from "../public/images/docs/shared/feature-icons/genetic-test-report-svgrepo-com.svg";
-import ego from "../public/images/docs/shared/feature-icons/2C6FC63F-1872-4DCE-9688-C94A487703A9.png";
-import face from "../public/images/docs/shared/feature-icons/98957A60-9BF3-4650-8B1E-7A671D45AE19.png";
-import power from "../public/images/docs/shared/feature-icons/CB914E6C-FAFC-4683-90E7-88A0A24794F3.png";
-import msg from "../public/images/docs/shared/feature-icons/Messages app.svg";
-import circle from "../public/images/docs/shared/feature-icons/Fondo de Future-HMI ip eliminado.png";
 
 type NextImageSrc = Parameters<typeof Image>[0]["src"];
 
@@ -54,53 +47,11 @@ const REPO_FEATURES: Features = [
     page: "all",
   },
   {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
-    iconDark: sap,
-    iconLight: sap,
-    page: "all",
-  },
-  {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
-    iconDark: calendar,
-    iconLight: calendar,
-    page: "all",
-  },
-  {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
-    iconDark: circle,
-    iconLight: circle,
-    page: "all",
-  },
-  {
     name: "Modelos Avanzados de Generación",
     description: `Con Sapiens IA, la generación de contenido toma una nueva dimensión. Ofrecemos modelos avanzados de text to image y text to video, transformando la forma en que se crea el contenido.`,
-    iconDark: face,
-    iconLight: face,
+    iconDark: FingerprintIconDark,
+    iconLight: FingerprintIconLight,
     page: "home",
-  },
-  {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
-    iconDark: ego,
-    iconLight: ego,
-    page: "all",
-  },
-  {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
-    iconDark: msg,
-    iconLight: msg,
-    page: "all",
-  },
-  {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
-    iconDark: power,
-    iconLight: power,
-    page: "all",
   },
   {
     name: "Procesamiento Paralelo",
@@ -164,8 +115,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Personalización de Personalidad",
     description: `Sapiens IA lleva la personalización a otro nivel. Nuestras soluciones te permiten darle a tu IA una personalidad única, creando una interacción más natural y efectiva.`,
-    iconDark: ego,
-    iconLight: ego,
+    iconDark: EcosystemIconDark,
+    iconLight: EcosystemIconLight,
     page: "home",
   },
   {
@@ -199,12 +150,4 @@ const PACK_FEATURES: Features = [
 ];
 export const REPO_DOCS_FEATURES = REPO_FEATURES.filter(
   (f) => f.page === "docs" || f.page === "all"
-);
-
-export const REPO_HOME_FEATURES = REPO_FEATURES.filter(
-  (f) => f.page === "home" || f.page === "all"
-);
-
-export const PACK_HOME_FEATURES = PACK_FEATURES.filter(
-  (f) => f.page === "home" || f.page === "all"
 );
