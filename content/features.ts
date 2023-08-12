@@ -139,3 +139,11 @@ const PACK_FEATURES: Features = [
 export const REPO_DOCS_FEATURES = REPO_FEATURES.filter(
   (f) => f.page === "docs" || f.page === "all"
 );
+
+export const REPO_HOME_FEATURES = REPO_FEATURES.filter(
+  (f) => f.page === "home" || f.page === "all"
+);
+
+export const PACK_HOME_FEATURES = PACK_FEATURES.filter(
+  (f) => f.page === "home" || f.page === "all"
+);
