@@ -10,10 +10,10 @@
       "toc": true
     }
   },
-  "repo": "Repo",
-  "pack": "Pack",
+  "repo": "Servicios",
+  "pack": "Laboratorios",
   "blog": {
-    "title": "博客",
+    "title": "🧬GUIA",
     "theme": {
       "typesetting": "article"
     }
@@ -30,7 +30,7 @@
   "showcase": "案例",
   "official-website": {
     "title": "官网",
-    "href": "https://turbo.build/",
+    "href": "https://sapienslaboratories.com/demo",
     "newWindow": true
   },
   "confirm": {
