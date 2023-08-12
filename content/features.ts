@@ -17,8 +17,8 @@ import CloudIconDark from "../public/images/docs/shared/feature-icons/cloud-dark
 import CloudIconLight from "../public/images/docs/shared/feature-icons/cloud-light.svg";
 import CpuIconDark from "../public/images/docs/shared/feature-icons/cpu-dark.svg";
 import CpuIconLight from "../public/images/docs/shared/feature-icons/cpu-light.svg";
-import PieconDark from "../public/images/docs/shared/feature-icons/piecon-dark.svg";
-import PieconLight from "../public/images/docs/shared/feature-icons/piecon-light.svg";
+import PieconDark from "../public/images/docs/shared/feature-icons/Face 1.png";
+import PieconLight from "../public/images/docs/shared/feature-icons/Face 1.png";
 import RefreshIconDark from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
 import RefreshIconLight from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
 import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/arrows-expand-dark.svg";
@@ -28,10 +28,10 @@ import BeakerIconLight from "../public/images/docs/shared/feature-icons/beaker-l
 import sap from "../public/images/docs/shared/feature-icons/E9C0EA8D-0FF6-4822-8384-5E2CDC51E2FE.png";
 import calendar from "../public/images/docs/shared/feature-icons/genetic-test-report-svgrepo-com.svg";
 import ego from "../public/images/docs/shared/feature-icons/2C6FC63F-1872-4DCE-9688-C94A487703A9.png";
-import face from "../public/images/docs/shared/feature-icons/Browser app.svg";
-import power from "../public/images/docs/shared/feature-icons/9E543A69-CA05-496B-BC70-B7AD1DEC0ED6.png";
+import face from "../public/images/docs/shared/feature-icons/98957A60-9BF3-4650-8B1E-7A671D45AE19.png";
+import power from "../public/images/docs/shared/feature-icons/CB914E6C-FAFC-4683-90E7-88A0A24794F3.png";
 import msg from "../public/images/docs/shared/feature-icons/Messages app.svg";
-
+import circle from "../public/images/docs/shared/feature-icons/Fondo de Future-HMI ip eliminado.png";
 
 type NextImageSrc = Parameters<typeof Image>[0]["src"];
 
@@ -65,6 +65,13 @@ const REPO_FEATURES: Features = [
     description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
     iconDark: calendar,
     iconLight: calendar,
+    page: "all",
+  },
+  {
+    name: "Entrenamiento Personalizado y Flexible",
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    iconDark: circle,
+    iconLight: circle,
     page: "all",
   },
   {
@@ -157,8 +164,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Personalización de Personalidad",
     description: `Sapiens IA lleva la personalización a otro nivel. Nuestras soluciones te permiten darle a tu IA una personalidad única, creando una interacción más natural y efectiva.`,
-    iconDark: EcosystemIconDark,
-    iconLight: EcosystemIconLight,
+    iconDark: ego,
+    iconLight: ego,
     page: "home",
   },
   {
