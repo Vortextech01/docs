@@ -25,6 +25,13 @@ import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/arr
 import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/arrows-expand-light.svg";
 import BeakerIconDark from "../public/images/docs/shared/feature-icons/beaker-dark.svg";
 import BeakerIconLight from "../public/images/docs/shared/feature-icons/beaker-light.svg";
+import sap from "../public/images/docs/shared/feature-icons/E9C0EA8D-0FF6-4822-8384-5E2CDC51E2FE.png";
+import calendar from "../public/images/docs/shared/feature-icons/Calendar ap.svg";
+import ego from "../public/images/docs/shared/feature-icons/child-cognition-svgrepo-com 2.svg";
+import face from "../public/images/docs/shared/feature-icons/Face id.svg";
+import power from "../public/images/docs/shared/feature-icons/supercoil-svgrepo-com.svg";
+import msg from "../public/images/docs/shared/feature-icons/messages-ios-logo-svgrepo-com 2.svg";
+
 
 type NextImageSrc = Parameters<typeof Image>[0]["src"];
 
@@ -47,11 +54,46 @@ const REPO_FEATURES: Features = [
     page: "all",
   },
   {
+    name: "Entrenamiento Personalizado y Flexible",
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    iconDark: sap,
+    iconLight: sap,
+    page: "all",
+  },
+  {
+    name: "Entrenamiento Personalizado y Flexible",
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    iconDark: calendar,
+    iconLight: calendar,
+    page: "all",
+  },
+  {
     name: "Modelos Avanzados de Generación",
     description: `Con Sapiens IA, la generación de contenido toma una nueva dimensión. Ofrecemos modelos avanzados de text to image y text to video, transformando la forma en que se crea el contenido.`,
-    iconDark: FingerprintIconDark,
-    iconLight: FingerprintIconLight,
+    iconDark: face,
+    iconLight: face,
     page: "home",
+  },
+  {
+    name: "Entrenamiento Personalizado y Flexible",
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    iconDark: ego,
+    iconLight: ego,
+    page: "all",
+  },
+  {
+    name: "Entrenamiento Personalizado y Flexible",
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    iconDark: msg,
+    iconLight: msg,
+    page: "all",
+  },
+  {
+    name: "Entrenamiento Personalizado y Flexible",
+    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    iconDark: power,
+    iconLight: power,
+    page: "all",
   },
   {
     name: "Procesamiento Paralelo",
