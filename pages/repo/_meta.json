@@ -7,4 +7,9 @@
       "sidebar": false,
       "toc": true
     }
+  },
+  "docs": {
+    "title": "Docs",
+    "display": "hidden"
   }
+}
