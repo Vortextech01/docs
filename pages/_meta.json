@@ -13,7 +13,7 @@
   "repo": "Servicios",
   "pack": "Laboratorios",
   "blog": {
-    "title": "🧬GUIA",
+    "title": "🧬THE•ARCHIVES",
     "theme": {
       "typesetting": "article"
     }
@@ -27,9 +27,9 @@
       "toc": true
     }
   },
-  "showcase": "案例",
+  "showcase": "🔎Ejemplos",
   "official-website": {
-    "title": "官网",
+    "title": "Home Page",
     "href": "https://sapienslaboratories.com/demo",
     "newWindow": true
   },
@@ -38,11 +38,11 @@
     "display": "hidden"
   },
   "terms": {
-    "title": "服务条款",
+    "title": "🤝Enterprise",
     "display": "hidden"
   },
   "privacy": {
-    "title": "隐私政策",
+    "title": "Privacy & Safety",
     "display": "hidden"
   }
 }
