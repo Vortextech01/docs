@@ -1,19 +1,12 @@
 {
   "index": {
-    "title": "快速开始"
+    "title": "🚀GUIA"
   },
-  "getting-started": "入门",
-  "core-concepts": "核心概念",
   "handbook": "Monorepo 手册",
-  "ci": "CI Recipes",
-  "reference": "API 参考",
   "changelog": {
-    "title": "修改记录",
-    "href": "https://github.com/vercel/turbo/releases",
+    "title": "✨AI•Executive~Demo ",
+    "href": "../chat",
     "newWindow": true
   },
-  "upgrading-to-v1": "升级到 v1",
-  "troubleshooting": "故障排除",
-  "acknowledgements": "致谢",
   "faq": "FAQ"
 }
