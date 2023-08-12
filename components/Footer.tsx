@@ -28,19 +28,19 @@ function FooterHeader({ children }: { children: ReactNode }) {
 
 const navigation = {
   general: [
-    { name: "博客", href: "/blog" },
-    { name: "Releases", href: "https://github.com/vercel/turbo/releases" },
+    { name: "🧬THE•ARCHIVES", href: "/blog" },
+    { name: "⚡️QuickChat", href: "/chat" },
   ],
   repo: [
-    { name: "文档", href: "/repo/docs" },
+    { name: "✨AI Solutions", href: "/repo" },
     {
-      name: "API 文档",
-      href: "/repo/docs/reference/command-line-reference",
+      name: "🤝Servicios",
+      href: "https://sapienslaboratories.com/public",
     },
-    { name: "FAQ", href: "/repo/docs/faq" },
+    { name: "Preguntas Frecuentes", href: "/repo/docs/faq" },
   ],
   pack: [
-    { name: "文档", href: "/pack/docs" },
+    { name: "Habilidades", href: "/pack/docs" },
     { name: "特性", href: "/pack/docs/features" },
   ],
   support: [
@@ -92,7 +92,7 @@ export function FooterContent() {
                 </ul>
               </div>
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Turborepo</FooterHeader>
+                <FooterHeader>Servicios</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.repo.map((item) => (
                     <li key={item.name}>
