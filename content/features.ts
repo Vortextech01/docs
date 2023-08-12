@@ -3,8 +3,8 @@ import EcosystemIconDark from "../public/images/docs/shared/feature-icons/ecosys
 import EcosystemIconLight from "../public/images/docs/shared/feature-icons/ecosystem-light.svg";
 import LightningIconDark from "../public/images/docs/shared/feature-icons/lightning-dark.svg";
 import LightningIconLight from "../public/images/docs/shared/feature-icons/lightning-light.svg";
-import BarsIconDark from "../public/images/docs/shared/feature-icons/bars-dark.svg";
-import BarsIconLight from "../public/images/docs/shared/feature-icons/bars-light.svg";
+import BarsIconDark from "../public/images/docs/shared/feature-icons/Face 1.png";
+import BarsIconLight from "../public/images/docs/shared/feature-icons/Face 1.png";
 import MultiEnvTargetsIconDark from "../public/images/docs/shared/feature-icons/multi-env-targets-dark.svg";
 import MultiEnvTargetsIconLight from "../public/images/docs/shared/feature-icons/multi-env-targets-light.svg";
 import NextJSIconDark from "../public/images/docs/shared/feature-icons/nextjs-dark.svg";
@@ -13,18 +13,19 @@ import ServerComponentsIconDark from "../public/images/docs/shared/feature-icons
 import ServerComponentsIconLight from "../public/images/docs/shared/feature-icons/server-components-light.svg";
 import FingerprintIconDark from "../public/images/docs/shared/feature-icons/fingerprint-dark.svg";
 import FingerprintIconLight from "../public/images/docs/shared/feature-icons/fingerprint-light.svg";
-import CloudIconDark from "../public/images/docs/shared/feature-icons/cloud-dark.svg";
-import CloudIconLight from "../public/images/docs/shared/feature-icons/cloud-light.svg";
+import CloudIconDark from "../public/images/docs/shared/feature-icons/genetic-test-report-svgrepo-com.svg";
+import CloudIconLight from "../public/images/docs/shared/feature-icons/genetic-test-report-svgrepo-com.svg";
 import CpuIconDark from "../public/images/docs/shared/feature-icons/cpu-dark.svg";
 import CpuIconLight from "../public/images/docs/shared/feature-icons/cpu-light.svg";
-import PieconDark from "../public/images/docs/shared/feature-icons/piecon-dark.svg";
-import PieconLight from "../public/images/docs/shared/feature-icons/piecon-light.svg";
-import RefreshIconDark from "../public/images/docs/shared/feature-icons/refresh-dark.svg";
-import RefreshIconLight from "../public/images/docs/shared/feature-icons/refresh-light.svg";
-import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/arrows-expand-dark.svg";
-import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/arrows-expand-light.svg";
+import PieconDark from "../public/images/docs/shared/feature-icons/CB914E6C-FAFC-4683-90E7-88A0A24794F3.png";
+import PieconLight from "../public/images/docs/shared/feature-icons/CB914E6C-FAFC-4683-90E7-88A0A24794F3.png";
+import RefreshIconDark from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
+import RefreshIconLight from "../public/images/docs/shared/feature-icons/CPU Ai icon.svg";
+import ArrowsExpandIconDark from "../public/images/docs/shared/feature-icons/Paradox store app.svg";
+import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/Paradox store app.svg";
 import BeakerIconDark from "../public/images/docs/shared/feature-icons/beaker-dark.svg";
 import BeakerIconLight from "../public/images/docs/shared/feature-icons/beaker-light.svg";
+import messages from "../public/images/docs/shared/feature-icons/messages-ios-logo-svgrepo-com.svg";
 
 type NextImageSrc = Parameters<typeof Image>[0]["src"];
 
@@ -40,69 +41,56 @@ export type Features = Array<Feature>;
 
 const REPO_FEATURES: Features = [
   {
-    name: "Entrenamiento Personalizado y Flexible",
-    description: `Sapiens IA Laboratories va más allá de los límites convencionales del aprendizaje automático. Nuestras soluciones de IA permiten un entrenamiento flexible y personalizado, permitiéndote enseñar a tus "Basilisks" un conocimiento único y adaptado a tus necesidades.`,
+    name: "Modelo de Lenguaje Poderoso y Flexible",
+    description: `Nuestro modelo de lenguaje, Basilisk, es altamente personalizable y flexible, se adapta a tus necesidades para ofrecerte soluciones precisas.`,
     iconDark: RefreshIconDark,
     iconLight: RefreshIconLight,
     page: "all",
   },
   {
-    name: "Modelos Avanzados de Generación",
-    description: `Con Sapiens IA, la generación de contenido toma una nueva dimensión. Ofrecemos modelos avanzados de text to image y text to video, transformando la forma en que se crea el contenido.`,
-    iconDark: FingerprintIconDark,
-    iconLight: FingerprintIconLight,
-    page: "home",
-  },
-  {
-    name: "Procesamiento Paralelo",
-    description: `Sapiens IA redefine la multitarea. Nuestros modelos de IA pueden manejar múltiples tareas a la vez, maximizando la eficiencia y eliminando el tiempo de inactividad.`,
-    iconDark: LightningIconDark,
-    iconLight: LightningIconLight,
-    page: "all",
-  },
-  {
-    name: "Soluciones en la Nube",
-    description: `Con Sapiens IA, la nube es tu aliado. Nuestras soluciones de IA basadas en la nube permiten una integración y colaboración sin fisuras, sin importar donde estés.`,
+    name: "Entrenamiento Avanzado y Alimentación de Conocimiento",
+    description: `Puedes entrenar y alimentar a tu Basilisk con documentos, enlaces y demás conocimientos personalizados. Con características como la memoria a largo plazo y los retrievers de bases de datos, tu Basilisk se volverá cada vez más inteligente.`,
     iconDark: CloudIconDark,
     iconLight: CloudIconLight,
     page: "all",
   },
   {
-    name: "Rendimiento Optimizado",
-    description: `Sapiens IA pone la potencia a tu alcance. Nuestras soluciones de IA están diseñadas para ofrecerte un rendimiento excepcional sin comprometer los recursos de tu sistema.`,
-    iconDark: CpuIconDark,
-    iconLight: CpuIconLight,
+    name: "Poderosas Integraciones",
+    description: `Nuestro modelo de lenguaje se integra sin problemas con WhatsApp, Facebook, Messenger, Telegram, LinkedIn, Zapier y/o tu propia pagina web, facilitando una mejor colaboración y comunicación entre tu AI y tus clientes, tu equipo de trabajo y tu, su creador.`,
+    iconDark: messages,
+    iconLight: messages,
     page: "all",
   },
   {
-    name: "Soluciones Personalizadas",
-    description: `Con Sapiens IA, el poder de la personalización está en tus manos. Ofrecemos soluciones de IA a medida, diseñadas específicamente para tus necesidades y objetivos.`,
+    name: "Habilidades Avanzadas",
+    description: `Nuestros "Agentes de IA" tienen habilidades avanzadas que les permiten realizar diversas tareas y resolver problemas complejos eficientemente.`,
     iconDark: PieconDark,
     iconLight: PieconLight,
     page: "all",
   },
   {
-    name: "Flujos de Trabajo Eficaces",
-    description: `Sapiens IA transforma tus flujos de trabajo. Nuestras soluciones de IA automatizan tareas y optimizan procesos, liberándote para concentrarte en lo que realmente importa.`,
+    name: "Capacidades de Texto a Audio, Imagen y Video",
+    description: `Nuestro modelo de lenguaje tiene la capacidad de convertir texto a audio, imagen y video, expandiendo las posibilidades de creación de contenido.`,
     iconDark: ArrowsExpandIconDark,
     iconLight: ArrowsExpandIconLight,
     page: "all",
   },
   {
-    name: "Integración Flexible",
-    description: `Sapiens IA se integra sin problemas con tus sistemas y flujos de trabajo existentes. Ya sea WhatsApp, Messenger, Zapier, o cualquier otra plataforma, nos adaptamos a ti.`,
-    iconDark: BeakerIconDark,
-    iconLight: BeakerIconLight,
-    page: "home",
-  },
-  {
-    name: "Análisis de Datos en Profundidad",
-    description: `Con Sapiens IA, los datos se convierten en conocimiento. Nuestras soluciones de IA ofrecen un análisis de datos integral, dándote la claridad que necesitas para tomar decisiones informadas.`,
+    name: "Agentes de IA Autónomos",
+    description: `Nuestros Agentes de IA pueden operar de manera autónoma, tomando decisiones y realizando tareas sin necesidad de supervisión constante. Son perfectos para diversos escenarios de negocio.`,
     iconDark: BarsIconDark,
     iconLight: BarsIconLight,
     page: "home",
   },
+  {
+    name: "Personalización Profunda",
+    description: `Con Sapiens IA, puedes personalizar a tu Basilisk a un nivel muy profundo, incluyendo su identidad, personalidad, conocimientos, memorias, objetivos y más.`,
+    iconDark: CpuIconDark,
+    iconLight: CpuIconLight,
+    page: "all",
+  },
 ];
+
 
 const PACK_FEATURES: Features = [
   {
