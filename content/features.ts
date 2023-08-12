@@ -26,11 +26,11 @@ import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/ar
 import BeakerIconDark from "../public/images/docs/shared/feature-icons/beaker-dark.svg";
 import BeakerIconLight from "../public/images/docs/shared/feature-icons/beaker-light.svg";
 import sap from "../public/images/docs/shared/feature-icons/E9C0EA8D-0FF6-4822-8384-5E2CDC51E2FE.png";
-import calendar from "../public/images/docs/shared/feature-icons/Calendar ap.svg";
-import ego from "../public/images/docs/shared/feature-icons/child-cognition-svgrepo-com 2.svg";
-import face from "../public/images/docs/shared/feature-icons/Face id.svg";
-import power from "../public/images/docs/shared/feature-icons/supercoil-svgrepo-com.svg";
-import msg from "../public/images/docs/shared/feature-icons/messages-ios-logo-svgrepo-com 2.svg";
+import calendar from "../public/images/docs/shared/feature-icons/genetic-test-report-svgrepo-com.svg";
+import ego from "../public/images/docs/shared/feature-icons/2C6FC63F-1872-4DCE-9688-C94A487703A9.png";
+import face from "../public/images/docs/shared/feature-icons/Browser app.svg";
+import power from "../public/images/docs/shared/feature-icons/9E543A69-CA05-496B-BC70-B7AD1DEC0ED6.png";
+import msg from "../public/images/docs/shared/feature-icons/Messages app.svg";
 
 
 type NextImageSrc = Parameters<typeof Image>[0]["src"];
