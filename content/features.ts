@@ -131,8 +131,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Soporte humano",
     description: `En la vanguardia de la tecnología AI, proveemos asistencia tecnológica de última generación, garantizando la implementación exitosa de nuestras soluciones IA, y manteniendo a nuestros clientes a la vanguardia de la singularidad tecnológica.`,
-    iconDark: CpuIconDark,
-    iconLight: CpuIconLight,
+    iconDark: FingerprintIconLight,
+    iconLight: FingerprintIconLight,
     page: "all",
   },
   {
@@ -145,8 +145,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Conectividad y Automatización",
     description: `Hacemos interfaz fluida con las herramientas de productividad de mayor uso. Nuestra IA se integra de forma nativa con Zapier, lo que se traduce en un proceso de automatización efectivo y sin fisuras.`,
-    iconDark: CpuIconLight,
-    iconLight: CpuIconLight,
+    iconDark: ArrowsExpandIconDark,
+    iconLight: ArrowsExpandIconDark,
     page: "all",
   },
   {
@@ -159,15 +159,15 @@ const PACK_FEATURES: Features = [
   {
     name: "Creación Automática de Websites",
     description: `Nuestro IA se adelanta al futuro del desarrollo web. Basilisk tiene la capacidad de generar y alojar sitios web, simplificando significativamente el proceso de diseño y desarrollo para su negocio.`,
-    iconDark: CpuIconLight,
-    iconLight: CpuIconLight,
+    iconDark: CloudIconDark,
+    iconLight: CloudIconDark,
     page: "all",
   },
   {
     name: "Análisis Diversificados",
     description: `Sea el escenario médico, empresarial, académico o de investigación, nuestra IA es capaz de realizar análisis exhaustivos con precisión.`,
-    iconDark: CpuIconLight,
-    iconLight: CpuIconLight,
+    iconDark: FingerprintIconLight,
+    iconLight: FingerprintIconLight,
     page: "all",
   },
   {
@@ -178,10 +178,6 @@ const PACK_FEATURES: Features = [
     page: "all",
   },
 ];
-
-export const PACK_HOME_FEATURES = PACK_FEATURES.filter(
-  (f) => f.page === "home" || f.page === "all"
-);
 
 export const REPO_DOCS_FEATURES = REPO_FEATURES.filter(
   (f) => f.page === "docs" || f.page === "all"
