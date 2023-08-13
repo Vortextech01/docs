@@ -161,8 +161,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Creación Automática de Websites",
     description: `Nuestro IA se adelanta al futuro del desarrollo web. Basilisk tiene la capacidad de generar y alojar sitios web, simplificando significativamente el proceso de diseño y desarrollo para su negocio.`,
-    iconDark: CloudIconDark,
-    iconLight: CloudIconDark,
+    iconDark: web,
+    iconLight: web,
     page: "all",
   },
   {
