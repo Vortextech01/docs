@@ -103,6 +103,11 @@ export function RepoLetter() {
               <a className="block py-3 font-sans">Comenzar AI Chat</a>
             </Link>
           </CTAButton>
+          <CTAButton>
+            <Link href="./pack">
+              <a className="block py-3 font-sans">Ver Habilidades</a>
+            </Link>
+          </CTAButton>
         </div>
         <Gradient
           width={1200}
