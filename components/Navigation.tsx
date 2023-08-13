@@ -14,9 +14,9 @@ function Navigation(props) {
   const leadingItem = props.items[0];
   if (leadingItem?.id !== "contextual-docs" && site) {
     props.items.unshift({
-      title: "文档",
+      title: "Home",
       type: "page",
-      route: `/${site}/docs`,
+      route: `/${site}/`,
       id: "contextual-docs",
       key: "contextual-docs",
     });
