@@ -65,8 +65,8 @@ export function PackLetter() {
         >
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
             <Image
-              alt="Image of Tobias Koopers"
-              src="/images/people/8E20FE86-9775-48F1-8632-0AFF3E28A633.gif"
+              alt="Image of basilisk AI"
+              src="/images/docs/shared/feature-icons/8E20FE86-9775-48F1-8632-0AFF3E28A633.gif"
               width={64}
               height={64}
               className="rounded-full"
