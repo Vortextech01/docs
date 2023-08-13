@@ -1,7 +1,7 @@
 const TURBO_TEAM = {
   jaredpalmer: {
     name: "Carlos Davila",
-    twitterUsername: "Carlosdavila007",
+    twitterUsername: "twitter",
     picture: "/images/people/66842354-3140-44C1-B98B-65C8F05D425D.jpeg",
   },
   gaspargarcia_: {
@@ -21,8 +21,8 @@ const TURBO_TEAM = {
   },
   nathanhammond: {
     name: "Javier Marco",
-    twitterUsername: "javimarco",
-    picture: "/images/people/nathanhammond.png",
+    twitterUsername: "twitter",
+    picture: "/images/docs/shared/feature-icons/CPU Ai icon.svg",
   },
   tknickman: {
     name: "Dagoberto Malacara",
@@ -31,12 +31,12 @@ const TURBO_TEAM = {
   },
   mehulkar: {
     name: "Arath Santos",
-    twitterUsername: "CampingTime3",
+    twitterUsername: "twitter",
     picture: "/images/people/F77F3692-9D03-41ED-8DD1-421241EC6A10.jpeg",
   },
   mattpocock: {
     name: "Mr.Basilisk V2",
-    twitterUsername: "Ai",
+    twitterUsername: "twitter",
     picture: "/images/people/0B15D2BE-03B1-4A51-B237-7CB67BAFD2E6.jpeg",
   },
 };
