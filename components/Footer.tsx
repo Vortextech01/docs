@@ -65,7 +65,7 @@ const navigation = {
     },
     { name: "📀Youtube", href: "https://m.youtube.com/@sapiensia7494" },
   ],
-  Proyectos: [
+  legal: [
     { name: "Sapiens Academia 301", href: "/privacy" },
     { name: "🪬", href: "https://sapienslaboratories.com/profile" },
   ],
