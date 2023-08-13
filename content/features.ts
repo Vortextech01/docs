@@ -26,6 +26,8 @@ import ArrowsExpandIconLight from "../public/images/docs/shared/feature-icons/Pa
 import BeakerIconDark from "../public/images/docs/shared/feature-icons/98957A60-9BF3-4650-8B1E-7A671D45AE19.png";
 import BeakerIconLight from "../public/images/docs/shared/feature-icons/98957A60-9BF3-4650-8B1E-7A671D45AE19.png";
 import messages from "../public/images/docs/shared/feature-icons/messages-ios-logo-svgrepo-com.svg";
+import sap from "../public/images/docs/shared/feature-icons/E9C0EA8D-0FF6-4822-8384-5E2CDC51E2FE.png";
+import web from "../public/images/docs/shared/feature-icons/AF60923D-25B4-47C7-9447-60E550FC4227.png";
 
 type NextImageSrc = Parameters<typeof Image>[0]["src"];
 
@@ -131,8 +133,8 @@ const PACK_FEATURES: Features = [
   {
     name: "Soporte humano",
     description: `En la vanguardia de la tecnología AI, proveemos asistencia tecnológica de última generación, garantizando la implementación exitosa de nuestras soluciones IA, y manteniendo a nuestros clientes a la vanguardia de la singularidad tecnológica.`,
-    iconDark: FingerprintIconLight,
-    iconLight: FingerprintIconLight,
+    iconDark: sap,
+    iconLight: sap,
     page: "all",
   },
   {
