@@ -160,14 +160,14 @@ export function FooterContent() {
               className="text-current"
               target="_blank"
               rel="noopener noreferrer"
-              title="vercel.com homepage"
-              href="https://vercel.com?utm_source=turbo-pack.cn&utm_medium=referral&utm_campaign=footer-logoLink"
+              title="Sapienslaboratories.com homepage"
+              href="https://sapienslaboratories.com"
             >
               <VercelLogo />
             </a>
             <p className="mt-4 text-xs text-gray-500 dark:text-[#888888]">
-              &copy; {new Date().getFullYear()} Sapiens IA Laboratories, Inc
-              中文版由 <a href='https://github.com/turbo-cn'>©️</a>CDMX
+              &copy; {new Date().getFullYear()} Sapiens IA Laboratories©️
+              Acc/Evolution <a href='https://sapienslaboratories.com/'>🧬</a>
             </p>
           </div>
         </div>
