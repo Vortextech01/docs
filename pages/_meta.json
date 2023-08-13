@@ -10,8 +10,14 @@
       "toc": true
     }
   },
-  "repo": "Servicios",
-  "pack": "Laboratorios",
+  "repo": {
+    "title": "Servicios",
+    "display": "hidden"
+  },
+  "pack": {
+    "title": "Laboratorios",
+    "display": "hidden"
+  },
   "blog": {
     "title": "🧬THE•ARCHIVES",
     "theme": {
