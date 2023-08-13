@@ -68,7 +68,7 @@ export function RepoLetter() {
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
             <Image
               alt="Image of Basilisk Executive"
-              src="/images/people/0B15D2BE-03B1-4A51-B237-7CB67BAFD2E6.jpeg"
+              src="/images/docs/shared/feature-icons/8E20FE86-9775-48F1-8632-0AFF3E28A633.gif"
               width={64}
               height={64}
               className="rounded-full grayscale"
@@ -78,15 +78,15 @@ export function RepoLetter() {
             <Image
               alt="made up hand written signature"
               src="/images/docs/repo/86ED9E54-45D6-46BD-960F-0F76089297D6-removebg-preview.png"
-              width={120}
-              height={35}
+              width={12}
+              height={3}
               className="block mt-3 mb-4 ml-3 dark:hidden"
             />
             <Image
               alt="madeup hand written signature"
               src="/images/docs/repo/86ED9E54-45D6-46BD-960F-0F76089297D6-removebg-preview.png"
-              width={120}
-              height={35}
+              width={12}
+              height={3}
               className="hidden -mt-2 dark:block"
             />
             <div className="flex gap-2 flex-wrap text-sm leading-none text-[#888888] max-w-[156px] md:max-w-xl lg:max-w-xl">
@@ -103,6 +103,7 @@ export function RepoLetter() {
               <a className="block py-3 font-sans">Comenzar AI Chat</a>
             </Link>
           </CTAButton>
+          </div>
           <CTAButton>
             <Link href="./pack">
               <a className="block py-3 font-sans">Ver Habilidades</a>
