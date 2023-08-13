@@ -66,7 +66,7 @@ export function PackLetter() {
           <div className="w-24 h-24 min-w-[96px] min-h-[96px] rounded-full border dark:border-white/10 border-black/10 flex items-center justify-center ">
             <Image
               alt="Image of Tobias Koopers"
-              src="/images/people/tobias.jpg"
+              src="/images/people/8E20FE86-9775-48F1-8632-0AFF3E28A633.gif"
               width={64}
               height={64}
               className="rounded-full"
@@ -77,16 +77,16 @@ export function PackLetter() {
               alt="Tobias Koppers hand written signature"
               src="/images/docs/pack/tobias-signature-light.svg"
               // 16 px added and offset to account for the glow
-              width={173 + 16}
-              height={91 + 16}
+              width={16 + 6}
+              height={19 + 6}
               className="block -mb-3 -ml-3 dark:hidden"
             />
             <Image
               alt="Tobias Koppers hand written signature"
               src="/images/docs/pack/tobias-signature-dark.svg"
               // 16 px added and offset to account for the glow
-              width={173 + 16}
-              height={91 + 16}
+              width={17 + 6}
+              height={19 + 10}
               className="hidden -mb-3 -ml-3 dark:block"
             />
             <div className="flex gap-2 flex-wrap text-sm leading-none text-[#888888] max-w-[156px] md:max-w-xl lg:max-w-xl">
@@ -99,7 +99,7 @@ export function PackLetter() {
       <FadeIn noVertical className="relative flex justify-center w-full mt-16">
         <div className="max-w-[180px] w-full">
           <CTAButton>
-            <Link href="/pack/docs">
+            <Link href="./chat">
               <a className="block py-3 font-sans">Comienza a Construir</a>
             </Link>
           </CTAButton>
