@@ -89,17 +89,27 @@ export function RepoHero() {
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
               <Link href="./chat" className="block py-3">
-                Hablar con IA Executiva   
+                Hablar con Basilisk
               </Link>
             </CTAButton>
             <CTAButton outline>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://sapienslaboratories.com/protected"
+                href="https://wa.me/message/VH3VN2CKQR7ZF1"
                 className="block py-3"
               >
                 Hablar con Humano 
+              </a>
+            </CTAButton>
+            <CTAButton outline>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="./pack"
+                className="block py-3"
+              >
+                Ver Habilidades 
               </a>
             </CTAButton>
           </div>
