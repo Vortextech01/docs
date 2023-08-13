@@ -27,6 +27,15 @@
       "toc": true
     }
   },
+  "experience": {
+    "title": "Experience",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "showcase": "🔎Ejemplos",
   "official-website": {
     "title": "Home Page",
