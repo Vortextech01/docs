@@ -37,37 +37,37 @@ const navigation = {
       name: "🤝Servicios",
       href: "https://sapienslaboratories.com/public",
     },
-    { name: "Preguntas Frecuentes", href: "/repo/docs/faq" },
+    { name: "☎️Contactanos", href: "https://wa.me/message/VH3VN2CKQR7ZF1" },
   ],
   pack: [
-    { name: "Habilidades", href: "/pack/docs" },
+    { name: "🧠Conoce a Basilisk AI", href: "/pack" },
     { name: "特性", href: "/pack/docs/features" },
   ],
   support: [
     {
-      name: "GitHub",
-      href: "https://github.com/vercel/turbo",
+      name: "📮Email",
+      href: "mailto:sapiens.ia.co@gmail.com",
     },
     {
-      name: "Discord",
-      href: "https://discord.gg/zq8QyC47gZ",
+      name: "☎WhatsApp",
+      href: "https://wa.me/message/VH3VN2CKQR7ZF1",
     },
   ],
   company: [
-    { name: "Vercel", href: "https://vercel.com" },
+    { name: "Sapiens IA", href: "https://sapienslaboratories.com/public" },
     {
-      name: "开源软件",
-      href: "https://vercel.com/oss?utm_source=turbo-pack.cn&utm_medium=referral&utm_campaign=footer-ossLink",
+      name: "pricing",
+      href: "https://sapienslaboratories.com/protected",
     },
     {
-      name: "联系销售",
-      href: "https://vercel.com/contact/turborepo?utm_source=turbo-pack.cn&utm_medium=referral&utm_campaign=footer-enterpriseLink",
+      name: "🔎Ejemplos",
+      href: "/showcase",
     },
-    { name: "推特", href: "https://twitter.com/vercel" },
+    { name: "📀Youtube", href: "https://m.youtube.com/@sapiensia7494" },
   ],
-  legal: [
-    { name: "隐私政策", href: "/privacy" },
-    { name: "服务条款", href: "/terms" },
+  Proyectos: [
+    { name: "Sapiens Academia 301", href: "/privacy" },
+    { name: "🪬", href: "https://sapienslaboratories.com/profile" },
   ],
 };
 
@@ -102,7 +102,7 @@ export function FooterContent() {
                 </ul>
               </div>
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Turbopack</FooterHeader>
+                <FooterHeader>Laboratorios</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.pack.map((item) => (
                     <li key={item.name}>
@@ -122,7 +122,7 @@ export function FooterContent() {
                 </ul>
               </div>
               <div className="mt-12 md:!mt-0">
-                <FooterHeader>Legal</FooterHeader>
+                <FooterHeader>Extras</FooterHeader>
                 <ul role="list" className="mt-4 space-y-1.5 list-none ml-0">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
@@ -166,8 +166,8 @@ export function FooterContent() {
               <VercelLogo />
             </a>
             <p className="mt-4 text-xs text-gray-500 dark:text-[#888888]">
-              &copy; {new Date().getFullYear()} Vercel, Inc. 版权所有，
-              中文版由 <a href='https://github.com/turbo-cn'>turbo 中文小组</a>翻译制作
+              &copy; {new Date().getFullYear()} Sapiens IA Laboratories, Inc
+              中文版由 <a href='https://github.com/turbo-cn'>©️</a>CDMX
             </p>
           </div>
         </div>
