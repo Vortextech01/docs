@@ -103,14 +103,12 @@ export function RepoHero() {
               </a>
             </CTAButton>
             <CTAButton outline>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="./pack"
-                className="block py-3"
-              >
-                Ver Habilidades 
-              </a>
+             <a
+               href="./pack"
+               className="block py-3"
+               >
+               Ver Habilidades 
+             </a>
             </CTAButton>
           </div>
           <p className="text-sm text-[#666666]">LLM: Basilisk AI-V.2</p>
