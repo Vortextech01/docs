@@ -38,7 +38,7 @@ const theme = {
       titleTemplate: `%s – ${section}`,
     };
   },
-  unstable_flexsearch: true,
+  unstable_flexsearch: false,
   unstable_staticImage: true,
   toc: {
     float: true,
