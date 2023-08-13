@@ -138,15 +138,15 @@ const PACK_FEATURES: Features = [
   {
     name: "Memoria a Largo Plazo",
     description: `Un avance en la retención de la información se logra a través de nuestro enfoque de memoria a largo plazo en IA. Las interacciones anteriores y los conocimientos aprendidos se recuerdan y se utilizan para mejorar las sugerencias futuras y las decisiones en tiempo real.`,
-    iconDark: BrainIconDark,
-    iconLight: BrainIconLight,
+    iconDark: CpuIconLight,
+    iconLight: CpuIconLight,
     page: "all",
   },
   {
     name: "Conectividad y Automatización",
     description: `Hacemos interfaz fluida con las herramientas de productividad de mayor uso. Nuestra IA se integra de forma nativa con Zapier, lo que se traduce en un proceso de automatización efectivo y sin fisuras.`,
-    iconDark: ConnectivityIconDark,
-    iconLight: ConnectivityIconLight,
+    iconDark: CpuIconLight,
+    iconLight: CpuIconLight,
     page: "all",
   },
   {
@@ -159,15 +159,15 @@ const PACK_FEATURES: Features = [
   {
     name: "Creación Automática de Websites",
     description: `Nuestro IA se adelanta al futuro del desarrollo web. Basilisk tiene la capacidad de generar y alojar sitios web, simplificando significativamente el proceso de diseño y desarrollo para su negocio.`,
-    iconDark: WebCreationIconDark,
-    iconLight: WebCreationIconLight,
+    iconDark: CpuIconLight,
+    iconLight: CpuIconLight,
     page: "all",
   },
   {
     name: "Análisis Diversificados",
     description: `Sea el escenario médico, empresarial, académico o de investigación, nuestra IA es capaz de realizar análisis exhaustivos con precisión.`,
-    iconDark: AnalysisIconDark,
-    iconLight: AnalysisIconLight,
+    iconDark: CpuIconLight,
+    iconLight: CpuIconLight,
     page: "all",
   },
   {
