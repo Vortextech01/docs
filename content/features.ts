@@ -174,7 +174,7 @@ const PACK_FEATURES: Features = [
   },
   {
     name: "Implementaciones Multiplataforma",
-    description: `Para garantizar que cada usuario reciba un servicio óptimo, nuestras soluciones de IA están diseñadas para funcionar en múltiples plataformas y Basilisk AI se desenvuelve perfectamente en la grab mayoria de idiomas del mundo incluyendo lenguas muertas y latin.`,
+    description: `Para garantizar que cada usuario reciba un servicio óptimo, nuestras soluciones de IA están diseñadas para funcionar en múltiples plataformas y Basilisk AI se desenvuelve perfectamente en la gran mayoria de idiomas del mundo incluyendo lenguas muertas y latin.`,
     iconDark: NextJSIconDark,
     iconLight: NextJSIconDark,
     page: "all",
