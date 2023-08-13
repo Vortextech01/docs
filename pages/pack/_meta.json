@@ -9,17 +9,7 @@
     }
   },
   "docs": {
-    "title": "文档",
-    "display": "children",
-    "children": [
-      {
-        "type": "page",
-        "title": "Quickstart"
-      },
-      {
-        "type": "page",
-        "title": "Why Turbopack?"
-      }
-    ]
+    "title": "Menu",
+    "display": "hidden"
   }
 }
