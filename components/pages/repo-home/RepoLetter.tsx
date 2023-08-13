@@ -97,26 +97,27 @@ export function RepoLetter() {
         </FadeIn>
       </div>
       <FadeIn noVertical className="relative flex justify-center w-full mt-16">
-        <div className="max-w-[180px] w-full">
-          <CTAButton>
-            <Link href="./chat">
-              <a className="block py-3 font-sans">Comenzar AI Chat</a>
-            </Link>
-          </CTAButton>
-          </div>
-          <CTAButton>
-            <Link href="./pack">
-              <a className="block py-3 font-sans">Ver Habilidades</a>
-            </Link>
-          </CTAButton>
-        </div>
-        <Gradient
-          width={1200}
-          height={300}
-          className="bottom-[-200px] -z-10 opacity-20"
-          conic
-        />
-      </FadeIn>
+  <div className="max-w-[180px] w-full">
+    <CTAButton>
+      <Link href="./chat">
+        <a className="block py-3 font-sans">Comenzar AI Chat</a>
+      </Link>
+    </CTAButton>
+  </div>
+</FadeIn>
+<div className="max-w-[180px] w-full">
+  <CTAButton>
+    <Link href="./pack">
+      <a className="block py-3 font-sans">Ver Habilidades</a>
+    </Link>
+  </CTAButton>
+</div>
+<Gradient
+  width={1200}
+  height={300}
+  className="bottom-[-200px] -z-10 opacity-20"
+  conic
+/>
     </section>
   )
 }
