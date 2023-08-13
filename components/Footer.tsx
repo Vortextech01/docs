@@ -41,7 +41,7 @@ const navigation = {
   ],
   pack: [
     { name: "🧠Conoce a Basilisk AI", href: "/pack" },
-    { name: "特性", href: "/pack/docs/features" },
+    { name: "🧬Playground", href: "https://sapienslaboratories.com/playground" },
   ],
   support: [
     {
@@ -49,7 +49,7 @@ const navigation = {
       href: "mailto:sapiens.ia.co@gmail.com",
     },
     {
-      name: "☎WhatsApp",
+      name: "WhatsApp",
       href: "https://wa.me/message/VH3VN2CKQR7ZF1",
     },
   ],
@@ -60,10 +60,10 @@ const navigation = {
       href: "https://sapienslaboratories.com/protected",
     },
     {
-      name: "🔎Ejemplos",
+      name: "Ejemplos",
       href: "/showcase",
     },
-    { name: "📀Youtube", href: "https://m.youtube.com/@sapiensia7494" },
+    { name: "Youtube", href: "https://m.youtube.com/@sapiensia7494" },
   ],
   legal: [
     { name: "Sapiens Academia 301", href: "/privacy" },
