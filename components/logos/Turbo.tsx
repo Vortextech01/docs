@@ -3,10 +3,10 @@ type LogoProps = {
   height?: number;
 };
 
-export const TurboLogoCondensed = ({ height = 50, className = "", }: LogoProps) => (
+export const TurboLogoCondensed = ({ height = 38, className = "", }: LogoProps) => (
   <svg
     className={className}
-    width="50"
+    width="38"
     height={height}
     viewBox="0 0 32 32"
     fill="none"
