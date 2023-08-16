@@ -67,7 +67,7 @@ const navigation = {
   ],
   legal: [
     { name: "Sapiens Academia 301", href: "https://m.youtube.com/watch?v=_0j-Q39ry5w&pp=ygUUc2FwaWVucyBhY2FkZW1pYSAzMDE%3D" },
-    { name: "🪬", href: "https://sapienslaboratories.com/profile" },
+    { name: "🪬", href: "/alchemyth" },
   ],
 };
 
