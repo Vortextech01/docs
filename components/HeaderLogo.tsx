@@ -38,8 +38,8 @@ function HeaderLogo() {
       <Link href="/chat" passHref>
         <a title="chat" className="hover:opacity-75 flex flex-row items-center">
           <TurboLogo height={32} className={styles.desktopLogo} />
-          <TurboLogoCondensed height={32} className={styles.mobileLogo} />
-          <span className={`font-medium ml-1 ${styles.desktopLogo}`}>中文</span>
+          <TurboLogoCondensed height={40} className={styles.mobileLogo} />
+          <span className={`font-medium ml-1 ${styles.desktopLogo}`}>©️</span>
         </a>
       </Link>
       <div className={styles.siteSwitcher}>
