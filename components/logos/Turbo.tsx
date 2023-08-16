@@ -13,7 +13,7 @@ export const TurboLogoCondensed = ({ height = 32, className = "", }: LogoProps) 
     xmlns="http://www.w3.org/2000/svg"
   >
     <title>Image Circle</title>
-    <image href="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/repo/23737DBB-017F-48AC-8A44-ED5E17201DB2.png" height="32" width="32"/>
+    <image href="https://raw.githubusercontent.com/Vortextech01/docs/main/public/images/docs/C7D5ACC4-04E1-48D6-8DE9-B4A9EE-unscreen.gif" height="32" width="32"/>
   </svg>
 );
 
