@@ -88,10 +88,10 @@ export function RepoHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="./chat" className="block py-3">
-                Hablar con Basilisk
-              </Link>
-            </CTAButton>
+  <Link href="https://new.sapienslaboratories.com" className="block py-3" target="_blank">
+    Hablar con Basilisk
+  </Link>
+</CTAButton>
             <CTAButton outline>
               <a
                 target="_blank"
