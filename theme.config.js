@@ -22,12 +22,12 @@ const theme = {
     const router = useRouter();
     const { frontMatter } = useConfig();
 
-    let section = "Turbo 中文文档";
+    let section = "SapiensIA";
     if (router?.pathname.startsWith("/pack")) {
-      section = "Turbopack 中文文档";
+      section = "Labotatories";
     }
     if (router?.pathname.startsWith("/repo")) {
-      section = "Turborepo 中文文档";
+      section = "Solutions;
     }
 
     const defaultTitle = frontMatter.overrideTitle || section;
