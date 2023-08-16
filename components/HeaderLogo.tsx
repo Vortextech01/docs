@@ -35,13 +35,13 @@ function HeaderLogo() {
       >
         <path d="M16.88 3.549L7.12 20.451" />
       </svg>
-      <Link href="/sapiensia.html" passHref>
-        <a title="chat" className="hover:opacity-75 flex flex-row items-center">
-          <TurboLogo height={32} className={styles.desktopLogo} />
-          <TurboLogoCondensed height={40} className={styles.mobileLogo} />
-          <span className={`font-medium ml-1 ${styles.desktopLogo}`}>©️</span>
-        </a>
-      </Link>
+      <Link href="https://new.sapienslaboratories.com" passHref>
+  <a title="chat" className="hover:opacity-75 flex flex-row items-center" target="_blank" rel="noopener noreferrer">
+    <TurboLogo height={32} className={styles.desktopLogo} />
+    <TurboLogoCondensed height={40} className={styles.mobileLogo} />
+    <span className={`font-medium ml-1 ${styles.desktopLogo}`}>©️</span>
+  </a>
+</Link>
       <div className={styles.siteSwitcher}>
         <SiteSwitcher />
       </div>
