@@ -6,4 +6,10 @@ container: true
 searchable: false
 ---
 
-<iframe src="https://sapienslaboratories.com" width="100%" height="800"> </iframe>
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "da40ac9c-6169-4b0a-881b-732a4979a6ec",
+        apiHost: "https://sapiensia-mdlbsk.hf.space",
+    })
+</script>
