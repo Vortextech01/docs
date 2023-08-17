@@ -96,10 +96,10 @@ export function PackHero() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://sapienslaboratories.com/playground"
+                href="https://wa.me/message/VH3VN2CKQR7ZF1"
                 className="block py-3"
               >
-                PLAYGROUND🚀
+                CONTACTANOS🚀
               </a>
             </CTAButton>
           </div>
