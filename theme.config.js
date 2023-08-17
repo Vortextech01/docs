@@ -61,7 +61,7 @@ const theme = {
     let ogUrl;
 
     if (frontMatter.ogImage || asPath === "/") {
-      ogUrl = `${SITE_ROOT}/og-image.png`;
+      ogUrl = `${SITE_ROOT}/9EF96259-E167-45EB-B199-7242E8C10A61.jpeg`;
     } else {
       const type = asPath.startsWith("/repo")
         ? "repo"
