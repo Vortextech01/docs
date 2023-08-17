@@ -5,7 +5,7 @@ import Navigation from "./components/Navigation";
 import HeaderLogo from "./components/HeaderLogo";
 import { Discord, Github } from "./components/Social";
 
-const SITE_ROOT = "https://turbo.build";
+const SITE_ROOT = "https://ai.sapienslaboratories.com";
 
 /**
  * @type {import('nextra-theme-docs').DocsThemeConfig}
