@@ -22,7 +22,7 @@ const theme = {
     const router = useRouter();
     const { frontMatter } = useConfig();
 
-    let section = "Turbo 中文文档";
+    let section = "Sapiens IA";
     if (router?.pathname.startsWith("/pack")) {
       section = "Turbopack 中文文档";
     }
