@@ -24,10 +24,10 @@ const theme = {
 
     let section = "Sapiens IA";
     if (router?.pathname.startsWith("/pack")) {
-      section = "Turbopack 中文文档";
+      section = "SapiensIA Solutions";
     }
     if (router?.pathname.startsWith("/repo")) {
-      section = "Turborepo 中文文档";
+      section = "SapiensIA Labs";
     }
 
     const defaultTitle = frontMatter.overrideTitle || section;
