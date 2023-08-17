@@ -81,19 +81,19 @@ const theme = {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`/images/favicon-${systemTheme}/apple-touch-icon.png`}
+          href={`/images/favicon-dark/56B381E1-E634-4977-B509-A6BF9EA7A360.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href={`/images/favicon-${systemTheme}/favicon-32x32.png`}
+          href={`/images/favicon-dark/56B381E1-E634-4977-B509-A6BF9EA7A360.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href={`/images/favicon-${systemTheme}/favicon-16x16.png`}
+          href={`/images/favicon-dark/56B381E1-E634-4977-B509-A6BF9EA7A360.png`}
         />
         <link
           rel="mask-icon"
@@ -102,7 +102,7 @@ const theme = {
         />
         <link
           rel="shortcut icon"
-          href={`/images/favicon-${systemTheme}/favicon.ico`}
+          href={`/images/favicon-dark/56B381E1-E634-4977-B509-A6BF9EA7A360.png`}
         />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta name="theme-color" content="#000" />
