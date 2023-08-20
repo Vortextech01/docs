@@ -36,6 +36,15 @@
       "toc": true
     }
   },
+  "story": {
+    "title": "Story",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "experience": {
     "title": "Experience",
     "display": "hidden",
