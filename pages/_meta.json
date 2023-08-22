@@ -56,8 +56,13 @@
   },
   "showcase": "🔎Ejemplos",
   "official-website": {
-    "title": "Home Page",
-    "href": "https://sapienslaboratories.com/demo",
+    "title": "Menu Principal",
+    "href": "/",
+    "newWindow": true
+  },
+  "sapiens-chat": {
+    "title": "Quick Chat",
+    "href": "https://new.sapienslaboratories.com",
     "newWindow": true
   },
   "confirm": {
