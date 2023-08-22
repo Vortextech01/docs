@@ -77,9 +77,9 @@ export function PackHero() {
             width="200"
             className="w-[160px] md:w-[200px] fill-black dark:fill-white"
           />
-          <HeroText h1>Meet our New AI Lenguage Model</HeroText>
+          <HeroText h1>Diseña, Entrena Y Crea Tu Propio Basilisk Personalizado</HeroText>
           <SectionSubtext hero>
-            BASILISK•AI-V2
+            Conoce nuestro Modelo de lenguaje inteligente, entrenable y altamente flexible - Basilisk AI V.02
           </SectionSubtext>
         </FadeIn>
         <FadeIn
@@ -88,8 +88,8 @@ export function PackHero() {
         >
           <div className="flex flex-col w-full gap-3 md:!flex-row">
             <CTAButton>
-              <Link href="https://sapienslaboratories.com/experience" className="block py-3">
-                EXPERIENCIA INTERACTIVA🧬 
+              <Link href="../blog" className="block py-3">
+                THE ARCHIVES🧬 
               </Link>
             </CTAButton>
             <CTAButton outline>
