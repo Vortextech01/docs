@@ -163,15 +163,15 @@ function LandingPage() {
             Construyendo la Nueva Generación de Trabajadores Artificiales Con Inteligencia Real.
           </p>
           <div className="video-container">
-            <iframe
-              width="290"
-              height="200"
-              src="https://www.youtube.com/embed/Ur2dDMMH8Kc"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+          <iframe
+  width="420"
+  height="300"
+  src="https://www.youtube.com/embed/Ur2dDMMH8Kc?autoplay=0&rel=0"
+  title="YouTube video player"
+  frameBorder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
           </div>
         </FadeIn>
         <SiteCards />
