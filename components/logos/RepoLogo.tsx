@@ -1,6 +1,6 @@
 const RepoLogo = (props) => (
   <div {...props} style={{fontSize: '1em', fontWeight: 'bold'}}>
-    SOLUTIONS
+  SERVICIOS
   </div>
 );
 
