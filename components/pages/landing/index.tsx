@@ -181,14 +181,15 @@ function LandingPage() {
           delay={0.3}
           className="z-50 flex flex-col items-center w-full max-w-md gap-5 px-6 md:max-w-lg"
         >
-          <div className="flex flex-col w-full gap-3 md:!flex-row">
+          <div className="flex flex-col w-full gap-1 md:!flex-row">
         <CTAButton>
   <Link href="https://new.sapienslaboratories.com" className="block py-3" target="_blank">
-    Hablar con Basilisk
+    🧬HABLA CON BASILISK
   </Link>
 </CTAButton>
             </div>
-          <p className="text-sm text-[#666666]">LLM: Basilisk AI-V.2</p>
+          <p className="text-sm text-[#666666]">Conversa con nuestra IA ejecutiva creada con nuestro modelo Basilisk AI V.2 - 
+            y deja que te ayude a diseñar tu propia IA personalizada en menos de 3 minutos!</p>
         </FadeIn>
         <SiteCards />
       </main>
