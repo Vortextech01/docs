@@ -162,9 +162,12 @@ function LandingPage() {
           <p className="mx-6 text-xl max-h-[112px] md:max-h-[96px] w-[315px] md:w-[660px] md:text-2xl font-space-grotesk text-center text-[#666666] dark:text-[#888888]">
             Construyendo la Nueva Generación de Trabajadores Artificiales Con Inteligencia Real.
           </p>
+        </FadeIn>
+        <SiteCards />
+        <FadeIn delay={0.3} className="z-10 py-16">
           <div className="video-container">
           <iframe
-  width="420"
+  width="400"
   height="300"
   src="https://www.youtube.com/embed/Ur2dDMMH8Kc?autoplay=0&rel=0"
   title="YouTube video player"
@@ -174,7 +177,6 @@ function LandingPage() {
 ></iframe>
           </div>
         </FadeIn>
-        <SiteCards />
       </main>
     </>
   );
