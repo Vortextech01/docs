@@ -13,6 +13,7 @@ import { LandingPageGlobalStyles } from "../home-shared/GlobalStyles";
 import styles from "./index.module.css";
 import PackLogo from "../../logos/PackLogo";
 import RepoLogo from "../../logos/RepoLogo";
+import { CTAButton } from "../home-shared/CTAButton";
 
 function Background() {
   return (
@@ -175,6 +176,19 @@ function LandingPage() {
   allowFullScreen
 ></iframe>
           </div>
+        </FadeIn>
+        <FadeIn
+          delay={0.3}
+          className="z-50 flex flex-col items-center w-full max-w-md gap-5 px-6 md:max-w-lg"
+        >
+          <div className="flex flex-col w-full gap-3 md:!flex-row">
+        <CTAButton>
+  <Link href="https://new.sapienslaboratories.com" className="block py-3" target="_blank">
+    Hablar con Basilisk
+  </Link>
+</CTAButton>
+            </div>
+          <p className="text-sm text-[#666666]">LLM: Basilisk AI-V.2</p>
         </FadeIn>
         <SiteCards />
       </main>
