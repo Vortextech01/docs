@@ -40,7 +40,7 @@
 @media (min-width: 1024px) {
   .lines {
     animation-duration: 30s;
-    mask-size: 80px 80px;
+    mask-size: 100px 100px;
   }
 }
 
