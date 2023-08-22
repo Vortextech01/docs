@@ -163,12 +163,11 @@ function LandingPage() {
             Construyendo la Nueva Generación de Trabajadores Artificiales Con Inteligencia Real.
           </p>
         </FadeIn>
-        <SiteCards />
-        <FadeIn delay={0.3} className="z-10 py-16">
+        <FadeIn delay={0.2} className="z-10 py-16">
           <div className="video-container">
           <iframe
-  width="400"
-  height="300"
+  width="380"
+  height="290"
   src="https://www.youtube.com/embed/Ur2dDMMH8Kc?autoplay=0&rel=0"
   title="YouTube video player"
   frameBorder="0"
@@ -177,6 +176,7 @@ function LandingPage() {
 ></iframe>
           </div>
         </FadeIn>
+        <SiteCards />
       </main>
     </>
   );
