@@ -162,8 +162,17 @@ function LandingPage() {
           <p className="mx-6 text-xl max-h-[112px] md:max-h-[96px] w-[315px] md:w-[660px] md:text-2xl font-space-grotesk text-center text-[#666666] dark:text-[#888888]">
             Construyendo la Nueva Generación de Trabajadores Artificiales Con Inteligencia Real.
           </p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ur2dDMMH8Kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe>
+          <div className="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Ur2dDMMH8Kc"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
         </FadeIn>
         <SiteCards />
       </main>
