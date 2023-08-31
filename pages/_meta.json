@@ -36,6 +36,15 @@
       "toc": true
     }
   },
+  "doctorbot": {
+    "title": "DoctorBot",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "story": {
     "title": "Story",
     "display": "hidden",
