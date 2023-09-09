@@ -27,6 +27,15 @@
       "toc": true
     }
   },
+  "lukie": {
+    "title": "lukie",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "alchemyth": {
     "title": "Alchemyth",
     "display": "hidden",
