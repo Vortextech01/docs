@@ -99,7 +99,7 @@ export function RepoLetter() {
       <FadeIn noVertical className="relative flex justify-center w-full mt-16">
   <div className="max-w-[180px] w-full">
     <CTAButton>
-      <Link href="https://new.sapienslaboratories.com">
+      <Link href="https://02.sapienslaboratories.com">
         <a className="block py-3 font-sans">Comenzar AI Chat</a>
       </Link>
     </CTAButton>
