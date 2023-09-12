@@ -183,8 +183,8 @@ function LandingPage() {
         >
           <div className="flex flex-col w-full gap-1 md:!flex-row">
         <CTAButton>
-  <Link href="https://new.sapienslaboratories.com" className="block py-3" target="_blank">
-    🧬HABLA CON BASILISK
+  <Link href="https://02.sapienslaboratories.com" className="block py-3" target="_blank">
+    🧬HABLA CON 👩🏻‍🦳SAPIENSIA
   </Link>
 </CTAButton>
             </div>
