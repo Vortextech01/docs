@@ -36,6 +36,15 @@
       "toc": true
     }
   },
+  "thinker": {
+    "title": "Thinker",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "lanz": {
     "title": "Lanz",
     "display": "hidden",
