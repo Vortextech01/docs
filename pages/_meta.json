@@ -27,6 +27,15 @@
       "toc": true
     }
   },
+  "events": {
+    "title": "Events",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "lukie": {
     "title": "lukie",
     "display": "hidden",
