@@ -45,6 +45,15 @@
       "toc": true
     }
   },
+  "lucia": {
+    "title": "LucIA",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw",
+      "sidebar": false,
+      "toc": true
+    }
+  },
   "thinker": {
     "title": "Thinker",
     "display": "hidden",
