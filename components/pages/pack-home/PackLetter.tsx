@@ -99,7 +99,7 @@ export function PackLetter() {
       <FadeIn noVertical className="relative flex justify-center w-full mt-16">
         <div className="max-w-[180px] w-full">
           <CTAButton>
-            <Link href="https://02.sapienslaboratories.com">
+            <Link href="https://wa.me/528131011335?text=Hola%2C%20me%20interesan%20los%20AI%20Workers%20de%20Sapiens%20Laboratories">
               <a className="block py-3 font-sans">Comienza a Construir</a>
             </Link>
           </CTAButton>

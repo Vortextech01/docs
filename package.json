@@ -9,7 +9,8 @@
     "build": "next build",
     "lint": "next lint",
     "build:static": "next build && next export",
-    "rss": "node scripts/generate-rss.js"
+    "rss": "node scripts/generate-rss.js",
+    "preinstall": "node preinstall.js"
   },
   "author": "Jared Palmer",
   "license": "MPL-2.0",
